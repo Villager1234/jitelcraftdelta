@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:luxmeter"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.luxmeter.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.luxmeter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusher_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:luxmeter"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:casing_stone"
+}

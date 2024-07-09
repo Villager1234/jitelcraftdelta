@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/brass"
+    },
+    "I": {
+      "tag": "forge:plates/brass"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:brass_gear",
+    "count": 1
+  }
+}

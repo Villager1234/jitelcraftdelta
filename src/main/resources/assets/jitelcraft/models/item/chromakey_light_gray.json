@@ -1,0 +1,6 @@
+{
+  "parent": "jitelcraft:item/chromakey",
+  "textures": {
+    "block": "jitelcraft:block/chromakey_light_gray"
+  }
+}

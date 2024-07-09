@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "jitelcraft:block/casing_wooden_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "jitelcraft:block/casing_wooden"
+    },
+    "axis=z": {
+      "model": "jitelcraft:block/casing_wooden_horizontal",
+      "x": 90
+    }
+  }
+}

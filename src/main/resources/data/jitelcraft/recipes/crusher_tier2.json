@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "f f",
+    " b ",
+    " C "
+  ],
+  "key": {
+    "f": {
+      "item": "jitelcraft:crusher_part"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "jitelcraft:casing_stone"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:crusher_tier2",
+    "count": 1
+  }
+}

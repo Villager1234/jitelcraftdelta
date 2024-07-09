@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:controller_tier1"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.controller_tier1.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.controller_tier1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "controller_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:controller_tier1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:hammer"
+}

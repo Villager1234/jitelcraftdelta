@@ -1,0 +1,9 @@
+{
+  "asset_name": "aluminum",
+  "description": {
+    "color": "#6596a4",
+    "translate": "trim_material.jitelcraft.aluminum"
+  },
+  "ingredient": "jitelcraft:aluminum_ingot",
+  "item_model_index": 0.2
+}

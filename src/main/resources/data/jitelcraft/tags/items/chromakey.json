@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:chromakey_black",
+    "jitelcraft:chromakey_blue",
+    "jitelcraft:chromakey_brown",
+    "jitelcraft:chromakey_cyan",
+    "jitelcraft:chromakey_gray",
+    "jitelcraft:chromakey_green",
+    "jitelcraft:chromakey_light_blue",
+    "jitelcraft:chromakey_light_gray",
+    "jitelcraft:chromakey_lime",
+    "jitelcraft:chromakey_magenta",
+    "jitelcraft:chromakey_orange",
+    "jitelcraft:chromakey_pink",
+    "jitelcraft:chromakey_purple",
+    "jitelcraft:chromakey_red",
+    "jitelcraft:chromakey_white",
+    "jitelcraft:chromakey_yellow"
+  ]
+}

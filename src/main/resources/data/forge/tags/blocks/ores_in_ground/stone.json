@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_ore",
+    "jitelcraft:jitel_ore",
+    "jitelcraft:opal_ore",
+    "jitelcraft:zinc_ore"
+  ]
+}

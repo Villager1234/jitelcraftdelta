@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:hammer"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.hammer.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.hammer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:hammer"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:jitel_gem"
+}

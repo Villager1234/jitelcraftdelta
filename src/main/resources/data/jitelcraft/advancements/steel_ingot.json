@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.steel_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.steel_ingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "steel_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:steel_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:crusher_tier1"
+}

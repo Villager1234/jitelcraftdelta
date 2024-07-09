@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:block/block",
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#side", "cullface": "down", "rotation": 180 },
+                "up":    { "texture": "#side", "cullface": "up" },
+                "north": { "texture": "#top", "cullface": "north" },
+                "south": { "texture": "#top", "cullface": "south" },
+                "west":  { "texture": "#side", "cullface": "west", "rotation": 270 },
+                "east":  { "texture": "#side", "cullface": "east", "rotation": 90 }
+            }
+        },
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "up":    { "texture": "#overlay_up", "cullface": "up", "rotation": 180 },
+                "north": { "texture": "#overlay_north", "cullface": "north" }
+            }
+        }
+    ],
+    "textures": {
+        "particle": "#top",
+        "top": "jitelcraft:block/casing/wooden_top",
+        "side": "jitelcraft:block/casing/wooden_side",
+        "overlay_up": "jitelcraft:block/machine_overlay/crusher_top",
+        "overlay_north": "jitelcraft:block/machine_overlay/crusher_front"
+    },
+    "display": {
+        "firstperson_righthand": {
+            "rotation": [ 0, 135, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.40, 0.40, 0.40 ]
+        }
+    },
+    "render_type": "cutout"
+}

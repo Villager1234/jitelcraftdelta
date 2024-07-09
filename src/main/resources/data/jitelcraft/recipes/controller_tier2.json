@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rjr",
+    "ojo",
+    "TpT"
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "j": {
+      "tag": "forge:gems/jitel"
+    },
+    "p": {
+      "tag": "forge:plates/steel"
+    },
+    "o": {
+      "tag": "forge:dusts/opal"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:controller_tier2",
+    "count": 1
+  }
+}

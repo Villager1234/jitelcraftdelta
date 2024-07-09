@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_ore",
+    "jitelcraft:aluminum_ore_deepslate",
+    "jitelcraft:jitel_ore",
+    "jitelcraft:jitel_ore_deepslate",
+    "jitelcraft:opal_ore",
+    "jitelcraft:opal_ore_deepslate",
+    "jitelcraft:zinc_ore",
+    "jitelcraft:zinc_ore_deepslate"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "cGc",
+    "ppp"
+  ],
+  "key": {
+    "c": {
+      "item": "jitelcraft:coil_copper"
+    },
+    "G": {
+      "tag": "forge:gears/steel"
+    },
+    "p": {
+      "tag": "forge:plates/steel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:coilblock_copper",
+    "count": 1
+  }
+}

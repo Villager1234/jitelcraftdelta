@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:lamp_analog"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.lamp_analog.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.lamp_analog.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusher_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:lamp_analog"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:brass_ingot"
+}

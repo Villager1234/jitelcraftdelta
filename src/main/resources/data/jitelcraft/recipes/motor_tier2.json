@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ArA",
+    "GIj",
+    "ArA"
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "j": {
+      "tag": "forge:dusts/jitel"
+    },
+    "I": {
+      "tag": "forge:rods/steel"
+    },
+    "G": {
+      "tag": "forge:gears/brass"
+    },
+    "A": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:motor_tier2",
+    "count": 1
+  }
+}

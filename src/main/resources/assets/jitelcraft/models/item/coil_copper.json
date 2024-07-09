@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jitelcraft:item/coil",
+    "layer1": "jitelcraft:item/coil_copper"
+  }
+}

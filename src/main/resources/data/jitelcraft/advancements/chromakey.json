@@ -1,0 +1,232 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:chromakey_black"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.chromakey.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.chromakey.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "chromakey_black",
+      "chromakey_blue",
+      "chromakey_brown",
+      "chromakey_cyan",
+      "chromakey_gray",
+      "chromakey_green",
+      "chromakey_light_blue",
+      "chromakey_light_gray",
+      "chromakey_lime",
+      "chromakey_magenta",
+      "chromakey_orange",
+      "chromakey_pink",
+      "chromakey_purple",
+      "chromakey_red",
+      "chromakey_white",
+      "chromakey_yellow"
+    ]
+  ],
+  "criteria": {
+    "chromakey_black": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_black"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_blue"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_brown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_brown"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_cyan"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_gray"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_green": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_green"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_light_blue"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_light_gray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_light_gray"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_lime": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_lime"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_magenta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_magenta"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_orange": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_orange"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_pink": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_pink"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_purple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_purple"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_red": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_red"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_white"
+            ]
+          }
+        ]
+      }
+    },
+    "chromakey_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:chromakey_yellow"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:jitel_gem"
+}

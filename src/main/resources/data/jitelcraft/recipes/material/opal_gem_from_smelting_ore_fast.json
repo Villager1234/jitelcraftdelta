@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.9,
+  "cookingtime": 100,
+  "ingredient": {
+    "tag": "forge:ores/opal"
+  },
+  "result": "jitelcraft:opal_gem"
+}

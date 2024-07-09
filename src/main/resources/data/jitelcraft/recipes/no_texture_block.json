@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bJm",
+    " C ",
+    "mJb"
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:dyes/black"
+    },
+    "m": {
+      "tag": "forge:dyes/magenta"
+    },
+    "C": {
+      "tag": "forge:cobblestone"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:no_texture_block",
+    "count": 2
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "mFc",
+    " g "
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "minecraft:furnace"
+      },
+      {
+        "item": "minecraft:dispenser"
+      },
+      {
+        "item": "minecraft:dropper"
+      }
+    ],
+    "g": {
+      "tag": "forge:gears/iron"
+    },
+    "m": {
+      "tag": "jitelcraft:motor/tier2"
+    },
+    "c": {
+      "tag": "jitelcraft:controller/tier2"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:casing_stone",
+    "count": 1
+  }
+}

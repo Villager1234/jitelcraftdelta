@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jitelcraft:no_texture_block"
+  },
+  "count": 2,
+  "result": "jitelcraft:no_texture_slab"
+}

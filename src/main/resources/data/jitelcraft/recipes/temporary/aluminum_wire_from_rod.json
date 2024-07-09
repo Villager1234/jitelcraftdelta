@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:rods/aluminum"
+    },
+    "H": {
+      "item": "jitelcraft:hammer"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:aluminum_wire",
+    "count": 3
+  }
+}

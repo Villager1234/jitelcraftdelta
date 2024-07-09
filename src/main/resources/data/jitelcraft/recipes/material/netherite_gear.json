@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/netherite"
+    },
+    "I": {
+      "tag": "forge:plates/netherite"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:netherite_gear",
+    "count": 1
+  }
+}

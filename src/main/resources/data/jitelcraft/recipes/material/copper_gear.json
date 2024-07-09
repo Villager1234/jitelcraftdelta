@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/copper"
+    },
+    "I": {
+      "tag": "forge:plates/copper"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:copper_gear",
+    "count": 1
+  }
+}

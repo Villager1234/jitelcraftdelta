@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/aluminum"
+    },
+    "I": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:aluminum_gear",
+    "count": 1
+  }
+}

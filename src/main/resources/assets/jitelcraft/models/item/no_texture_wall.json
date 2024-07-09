@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [ 0, 90, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 1, 1, 1]
+    }
+  }
+}

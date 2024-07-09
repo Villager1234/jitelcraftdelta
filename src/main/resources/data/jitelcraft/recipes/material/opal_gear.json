@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/opal"
+    },
+    "I": {
+      "tag": "forge:plates/opal"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:opal_gear",
+    "count": 1
+  }
+}

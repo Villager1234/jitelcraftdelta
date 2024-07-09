@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "GIG",
+    " R "
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:storage_blocks/jitel"
+    },
+    "G": {
+      "tag": "forge:gems/emerald"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "R": {
+      "tag": "forge:rods/emerald"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:jitel_sword",
+    "count": 1
+  }
+}

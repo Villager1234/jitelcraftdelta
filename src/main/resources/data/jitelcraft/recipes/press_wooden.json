@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "sss",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "s": {
+      "tag": "forge:ingots/steel"
+    },
+    "C": {
+      "item": "jitelcraft:casing_wooden"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:press_wooden",
+    "count": 1
+  }
+}

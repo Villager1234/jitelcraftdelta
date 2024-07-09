@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/quartz"
+    },
+    "I": {
+      "tag": "forge:plates/quartz"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:quartz_gear",
+    "count": 1
+  }
+}

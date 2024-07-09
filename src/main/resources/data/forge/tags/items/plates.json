@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_plate",
+    "jitelcraft:amethyst_plate",
+    "jitelcraft:brass_plate",
+    "jitelcraft:coal_plate",
+    "jitelcraft:copper_plate",
+    "jitelcraft:diamond_plate",
+    "jitelcraft:emerald_plate",
+    "jitelcraft:gold_plate",
+    "jitelcraft:iron_plate",
+    "jitelcraft:lapis_plate",
+    "jitelcraft:netherite_plate",
+    "jitelcraft:opal_plate",
+    "jitelcraft:quartz_plate",
+    "jitelcraft:steel_plate",
+    "jitelcraft:zinc_plate"
+  ]
+}

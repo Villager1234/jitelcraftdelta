@@ -1,0 +1,9 @@
+{
+  "asset_name": "jitel",
+  "description": {
+    "color": "#b98468",
+    "translate": "trim_material.jitelcraft.jitel"
+  },
+  "ingredient": "jitelcraft:jitel_gem",
+  "item_model_index": 0.5
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " w ",
+    "wcw",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:wires/copper"
+    },
+    "c": {
+      "item": "jitelcraft:coil"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:coil_copper",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:omnihopper"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.omnihopper.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.omnihopper.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusher_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:omnihopper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:casing_wooden"
+}

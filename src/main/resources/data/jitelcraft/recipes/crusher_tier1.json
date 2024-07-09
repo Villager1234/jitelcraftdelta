@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "f f",
+    "fbf",
+    " C "
+  ],
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:bucket"
+    },
+    "C": {
+      "item": "jitelcraft:casing_wooden"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:crusher_tier1",
+    "count": 1
+  }
+}

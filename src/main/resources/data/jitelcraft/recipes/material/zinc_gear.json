@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/zinc"
+    },
+    "I": {
+      "tag": "forge:plates/zinc"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:zinc_gear",
+    "count": 1
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "facing=east,mode=1": {
+      "model": "jitelcraft:block/luxmeter_1",
+      "y": 90
+    },
+    "facing=east,mode=2": {
+      "model": "jitelcraft:block/luxmeter_2",
+      "y": 90
+    },
+    "facing=east,mode=3": {
+      "model": "jitelcraft:block/luxmeter_3",
+      "y": 90
+    },
+    "facing=north,mode=1": {
+      "model": "jitelcraft:block/luxmeter_1"
+    },
+    "facing=north,mode=2": {
+      "model": "jitelcraft:block/luxmeter_2"
+    },
+    "facing=north,mode=3": {
+      "model": "jitelcraft:block/luxmeter_3"
+    },
+    "facing=south,mode=1": {
+      "model": "jitelcraft:block/luxmeter_1",
+      "y": 180
+    },
+    "facing=south,mode=2": {
+      "model": "jitelcraft:block/luxmeter_2",
+      "y": 180
+    },
+    "facing=south,mode=3": {
+      "model": "jitelcraft:block/luxmeter_3",
+      "y": 180
+    },
+    "facing=west,mode=1": {
+      "model": "jitelcraft:block/luxmeter_1",
+      "y": 270
+    },
+    "facing=west,mode=2": {
+      "model": "jitelcraft:block/luxmeter_2",
+      "y": 270
+    },
+    "facing=west,mode=3": {
+      "model": "jitelcraft:block/luxmeter_3",
+      "y": 270
+    },
+    "facing=up,mode=1": {
+      "model": "jitelcraft:block/luxmeter_vert_1"
+    },
+    "facing=up,mode=2": {
+      "model": "jitelcraft:block/luxmeter_vert_2"
+    },
+    "facing=up,mode=3": {
+      "model": "jitelcraft:block/luxmeter_vert_3"
+    },
+    "facing=down,mode=1": {
+      "model": "jitelcraft:block/luxmeter_vert_1",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=down,mode=2": {
+      "model": "jitelcraft:block/luxmeter_vert_2",
+      "x": 180,
+      "uvlock": true
+    },
+    "facing=down,mode=3": {
+      "model": "jitelcraft:block/luxmeter_vert_3",
+      "x": 180,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jitelcraft:block/no_texture_slab"
+    },
+    "type=double": {
+      "model": "jitelcraft:block/no_texture_block"
+    },
+    "type=top": {
+      "model": "jitelcraft:block/no_texture_slab_top"
+    }
+  }
+}

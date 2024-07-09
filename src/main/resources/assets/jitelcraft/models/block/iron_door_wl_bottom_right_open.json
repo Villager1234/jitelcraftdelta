@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "jitelcraft:block/iron_door_wl_bottom",
+    "top": "jitelcraft:block/iron_door_wl_top"
+  }
+}

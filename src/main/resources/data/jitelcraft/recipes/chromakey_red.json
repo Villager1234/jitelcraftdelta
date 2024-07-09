@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DJD",
+    "DGD",
+    "DJD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:dyes/red"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:chromakey_red",
+    "count": 2
+  }
+}

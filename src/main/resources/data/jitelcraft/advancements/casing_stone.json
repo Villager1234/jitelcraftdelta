@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:casing_stone"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.casing_stone.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.casing_stone.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "casing_stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:casing_stone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:controller_tier2"
+}

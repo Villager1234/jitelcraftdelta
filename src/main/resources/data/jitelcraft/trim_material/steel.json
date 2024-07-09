@@ -1,0 +1,9 @@
+{
+  "asset_name": "steel",
+  "description": {
+    "color": "#6e6e6e",
+    "translate": "trim_material.jitelcraft.steel"
+  },
+  "ingredient": "jitelcraft:steel_ingot",
+  "item_model_index": 0.3
+}

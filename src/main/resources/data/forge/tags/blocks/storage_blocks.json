@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_block",
+    "jitelcraft:aluminum_raw_block",
+    "jitelcraft:brass_block",
+    "jitelcraft:jitel_block",
+    "jitelcraft:opal_block",
+    "jitelcraft:steel_block",
+    "jitelcraft:zinc_block",
+    "jitelcraft:zinc_raw_block"
+  ]
+}

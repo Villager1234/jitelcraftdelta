@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ArA",
+    "GIr",
+    "ArA"
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "I": {
+      "tag": "forge:rods/iron"
+    },
+    "G": {
+      "tag": "forge:gears/iron"
+    },
+    "A": {
+      "tag": "forge:plates/aluminum"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:motor_tier1",
+    "count": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:crusher_tier1"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.crusher_tier1.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.crusher_tier1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusher_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:crusher_tier1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:casing_wooden"
+}

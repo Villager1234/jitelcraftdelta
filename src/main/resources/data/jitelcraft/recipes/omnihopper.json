@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "H"
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "C": {
+      "item": "jitelcraft:casing_wooden"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:omnihopper",
+    "count": 1
+  }
+}

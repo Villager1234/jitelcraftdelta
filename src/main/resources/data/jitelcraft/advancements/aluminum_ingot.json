@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:aluminum_ingot"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.aluminum_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.aluminum_ingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aluminum_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:aluminum_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

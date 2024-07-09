@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:halite"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.halite.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.halite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crusher_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:halite"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

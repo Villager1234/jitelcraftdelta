@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:coilblock_copper"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.coilblock.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.coilblock.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "coilblock_aluminum",
+      "coilblock_copper"
+    ]
+  ],
+  "criteria": {
+    "coilblock_aluminum": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:coilblock_aluminum"
+            ]
+          }
+        ]
+      }
+    },
+    "coilblock_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:coilblock_copper"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:steel_ingot"
+}

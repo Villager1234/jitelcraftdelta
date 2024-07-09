@@ -1,0 +1,7 @@
+{
+  "parent": "jitelcraft:block/lamp_analog_a",
+  "textures": {
+    "top": "jitelcraft:block/lamp_analog_1_top",
+    "side": "jitelcraft:block/lamp_analog_1_side"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_nugget",
+    "jitelcraft:amethyst_nugget",
+    "jitelcraft:brass_nugget",
+    "jitelcraft:copper_nugget",
+    "jitelcraft:diamond_nugget",
+    "jitelcraft:emerald_nugget",
+    "jitelcraft:jitel_nugget",
+    "jitelcraft:lapis_nugget",
+    "jitelcraft:netherite_nugget",
+    "jitelcraft:opal_nugget",
+    "jitelcraft:quartz_nugget",
+    "jitelcraft:steel_nugget",
+    "jitelcraft:zinc_nugget"
+  ]
+}

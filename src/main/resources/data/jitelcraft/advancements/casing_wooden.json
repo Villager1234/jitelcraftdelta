@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:casing_wooden"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.casing_wooden.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.casing_wooden.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "casing_wooden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:casing_wooden"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:controller_tier1"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "jitelcraft:block/no_texture_bricks"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "variants": {
+    "up=false,down=false,axis=y": {
+      "model": "jitelcraft:block/coilblock_copper"
+    },
+    "up=false,down=true,axis=y": {
+      "model": "jitelcraft:block/coilblock_copper_connected_down"
+    },
+    "up=true,down=false,axis=y": {
+      "model": "jitelcraft:block/coilblock_copper_connected_up"
+    },
+    "up=true,down=true,axis=y": {
+      "model": "jitelcraft:block/coilblock_copper_connected"
+    },
+
+    "up=false,down=false,axis=x": {
+      "model": "jitelcraft:block/coilblock_copper",
+      "x": 270,
+      "y": 270
+    },
+    "up=false,down=true,axis=x": {
+      "model": "jitelcraft:block/coilblock_copper_connected_down",
+      "x": 270,
+      "y": 270
+    },
+    "up=true,down=false,axis=x": {
+      "model": "jitelcraft:block/coilblock_copper_connected_up",
+      "x": 270,
+      "y": 270
+    },
+    "up=true,down=true,axis=x": {
+      "model": "jitelcraft:block/coilblock_copper_connected",
+      "x": 270,
+      "y": 270
+    },
+
+    "up=false,down=false,axis=z": {
+      "model": "jitelcraft:block/coilblock_copper",
+      "x": 270
+    },
+    "up=false,down=true,axis=z": {
+      "model": "jitelcraft:block/coilblock_copper_connected_down",
+      "x": 270
+    },
+    "up=true,down=false,axis=z": {
+      "model": "jitelcraft:block/coilblock_copper_connected_up",
+      "x": 270
+    },
+    "up=true,down=true,axis=z": {
+      "model": "jitelcraft:block/coilblock_copper_connected",
+      "x": 270
+    }
+  }
+}

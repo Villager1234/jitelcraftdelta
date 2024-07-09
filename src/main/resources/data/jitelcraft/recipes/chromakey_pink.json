@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DJD",
+    "DGD",
+    "DJD"
+  ],
+  "key": {
+    "D": {
+      "tag": "forge:dyes/pink"
+    },
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:chromakey_pink",
+    "count": 2
+  }
+}

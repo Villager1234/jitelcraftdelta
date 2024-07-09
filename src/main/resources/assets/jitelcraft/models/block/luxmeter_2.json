@@ -1,0 +1,6 @@
+{
+  "parent": "jitelcraft:block/luxmeter",
+  "textures": {
+    "overlay": "jitelcraft:block/machine_overlay/luxmeter_sky"
+  }
+}

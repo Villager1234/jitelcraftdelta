@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/amethyst"
+    },
+    "I": {
+      "tag": "forge:plates/amethyst"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:amethyst_gear",
+    "count": 1
+  }
+}

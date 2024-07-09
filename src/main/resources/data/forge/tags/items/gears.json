@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_gear",
+    "jitelcraft:amethyst_gear",
+    "jitelcraft:brass_gear",
+    "jitelcraft:copper_gear",
+    "jitelcraft:diamond_gear",
+    "jitelcraft:emerald_gear",
+    "jitelcraft:gold_gear",
+    "jitelcraft:iron_gear",
+    "jitelcraft:lapis_gear",
+    "jitelcraft:netherite_gear",
+    "jitelcraft:opal_gear",
+    "jitelcraft:quartz_gear",
+    "jitelcraft:steel_gear",
+    "jitelcraft:wooden_gear",
+    "jitelcraft:zinc_gear"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "jitelcraft:block/coilblock_two_parts",
+  "textures": {
+    "particle": "jitelcraft:block/coilblock_copper_connected",
+    "end": "jitelcraft:block/coilblock_top",
+    "side_up": "jitelcraft:block/coilblock_copper_connected",
+    "side_down": "jitelcraft:block/coilblock_copper"
+  }
+}

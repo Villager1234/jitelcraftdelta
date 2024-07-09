@@ -1,0 +1,60 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "jitelcraft:block/casing/wooden_side_hopper",
+    "top": "jitelcraft:block/casing/wooden_top",
+    "hop": "jitelcraft:block/machine_overlay/hopper",
+    "hop_large": "jitelcraft:block/machine_overlay/hopper_large",
+    "hop_small": "jitelcraft:block/machine_overlay/hopper_small",
+    "particle": "#top"
+  },
+  "elements": [
+    {
+      "from": [6, 0, 6],
+      "to": [10, 2, 10],
+      "faces": {
+        "north": {"uv": [0, 14, 4, 16], "texture": "#hop"},
+        "east": {"uv": [12, 14, 16, 16], "texture": "#hop"},
+        "south": {"uv": [8, 14, 12, 16], "texture": "#hop"},
+        "west": {"uv": [4, 14, 8, 16], "texture": "#hop"},
+        "down": {"uv": [6, 6, 10, 10], "texture": "#hop_large", "cullface": "down"}
+      }
+    },
+    {
+      "from": [3, 2, 3],
+      "to": [13, 4, 13],
+      "faces": {
+        "north": {"uv": [0, 5, 10, 7], "texture": "#hop"},
+        "east": {"uv": [2, 5, 12, 7], "texture": "#hop"},
+        "south": {"uv": [6, 5, 16, 7], "texture": "#hop"},
+        "west": {"uv": [4, 5, 14, 7], "texture": "#hop"},
+        "down": {"uv": [3, 3, 13, 13], "texture": "#hop_large"}
+			}
+    },
+    {
+      "from": [0, 4, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 4, 16, 16], "rotation": 180, "texture": "#side", "cullface": "north"},
+        "east": {"uv": [0, 4, 16, 16], "rotation": 180, "texture": "#side", "cullface": "east"},
+        "south": {"uv": [0, 4, 16, 16], "rotation": 180, "texture": "#side", "cullface": "south"},
+        "west": {"uv": [0, 4, 16, 16], "rotation": 180, "texture": "#side", "cullface": "west"},
+        "up": {"texture": "#top"},
+        "down": {"texture": "#top"}
+      }
+    },
+    {
+      "from": [0, 4, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"uv": [0, 0, 16, 12], "texture": "#hop_small", "cullface": "north"},
+        "east": {"uv": [0, 0, 16, 12], "texture": "#hop_small", "cullface": "east"},
+        "south": {"uv": [0, 0, 16, 12], "texture": "#hop_small", "cullface": "south"},
+        "west": {"uv": [0, 0, 16, 12], "texture": "#hop_small", "cullface": "west"},
+        "up": {"texture": "#hop_large"},
+        "down": {"texture": "#hop_large"}
+      }
+    }
+  ],
+  "render_type": "cutout"
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_dust",
+    "jitelcraft:amethyst_dust",
+    "jitelcraft:brass_dust",
+    "jitelcraft:coal_dust",
+    "jitelcraft:copper_dust",
+    "jitelcraft:diamond_dust",
+    "jitelcraft:emerald_dust",
+    "jitelcraft:gold_dust",
+    "jitelcraft:iron_dust",
+    "jitelcraft:jitel_dust",
+    "jitelcraft:lapis_dust",
+    "jitelcraft:netherite_dust",
+    "jitelcraft:opal_dust",
+    "jitelcraft:quartz_dust",
+    "jitelcraft:salt",
+    "jitelcraft:steel_dust",
+    "jitelcraft:zinc_dust"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "R R",
+    "IRI"
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/wooden"
+    },
+    "I": {
+      "tag": "forge:nuggets/iron"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:wooden_gear",
+    "count": 1
+  }
+}

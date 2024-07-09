@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/diamond"
+    },
+    "I": {
+      "tag": "forge:plates/diamond"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:diamond_gear",
+    "count": 1
+  }
+}

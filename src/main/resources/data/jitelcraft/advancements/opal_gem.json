@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:opal_gem"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.opal_gem.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.opal_gem.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "opal_gem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:opal_gem"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

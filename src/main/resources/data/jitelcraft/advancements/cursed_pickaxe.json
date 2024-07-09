@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:cursed_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.cursed_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.cursed_pickaxe.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "brass_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:cursed_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

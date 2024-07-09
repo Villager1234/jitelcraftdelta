@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:no_texture_block"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.no_texture_block.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.no_texture_block.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "controller_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:no_texture_block"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:jitel_gem"
+}

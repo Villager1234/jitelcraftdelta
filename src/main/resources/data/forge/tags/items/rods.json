@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "jitelcraft:aluminum_rod",
+    "jitelcraft:amethyst_rod",
+    "jitelcraft:brass_rod",
+    "jitelcraft:copper_rod",
+    "jitelcraft:diamond_rod",
+    "jitelcraft:emerald_rod",
+    "jitelcraft:gold_rod",
+    "jitelcraft:iron_rod",
+    "jitelcraft:lapis_rod",
+    "jitelcraft:netherite_rod",
+    "jitelcraft:opal_rod",
+    "jitelcraft:quartz_rod",
+    "jitelcraft:steel_rod",
+    "jitelcraft:stone_rod",
+    "jitelcraft:zinc_rod"
+  ]
+}

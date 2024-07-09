@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/zinc"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    },
+    {
+      "tag": "forge:ingots/copper"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:brass_components",
+    "count": 2
+  }
+}

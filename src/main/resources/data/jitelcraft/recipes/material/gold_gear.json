@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RIR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "tag": "forge:rods/gold"
+    },
+    "I": {
+      "tag": "forge:plates/gold"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:gold_gear",
+    "count": 1
+  }
+}

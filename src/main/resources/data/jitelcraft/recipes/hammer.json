@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IJI",
+    "IrI",
+    " r "
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:rods/wooden"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:hammer",
+    "count": 1
+  }
+}

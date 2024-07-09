@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jitelcraft:block/coilblock_top",
+    "side": "jitelcraft:block/coilblock_copper_connected"
+  }
+}

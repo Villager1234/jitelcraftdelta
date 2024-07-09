@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/jitel"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:jitel_gem",
+    "count": 9
+  }
+}

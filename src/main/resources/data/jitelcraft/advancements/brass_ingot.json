@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:brass_ingot"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.brass_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.brass_ingot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "brass_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:brass_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:crusher_tier1"
+}

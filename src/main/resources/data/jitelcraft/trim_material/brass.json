@@ -1,0 +1,9 @@
+{
+  "asset_name": "brass",
+  "description": {
+    "color": "#cca04b",
+    "translate": "trim_material.jitelcraft.brass"
+  },
+  "ingredient": "jitelcraft:brass_ingot",
+  "item_model_index": 0.6
+}

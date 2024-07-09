@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jitelcraft:hammer"
+    },
+    {
+      "tag": "forge:gems/jitel"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:jitel_dust",
+    "count": 1
+  }
+}

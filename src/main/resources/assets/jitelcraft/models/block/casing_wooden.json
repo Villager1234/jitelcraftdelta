@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "particle": "#end",
+    "end": "jitelcraft:block/casing/wooden_top",
+    "side": "jitelcraft:block/casing/wooden_side"
+  }
+}

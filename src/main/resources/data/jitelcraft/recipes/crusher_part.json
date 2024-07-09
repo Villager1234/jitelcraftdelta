@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rff",
+    "gf ",
+    "rff"
+  ],
+  "key": {
+    "f": {
+      "item": "minecraft:flint"
+    },
+    "r": {
+      "tag": "forge:rods/steel"
+    },
+    "g": {
+      "tag": "forge:gears/steel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:crusher_part",
+    "count": 1
+  }
+}

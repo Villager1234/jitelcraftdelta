@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jitelcraft:hammer"
+    },
+    {
+      "tag": "forge:gems/opal"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:opal_dust",
+    "count": 1
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "power=0": {
+      "model": "jitelcraft:block/lamp_analog_0"
+    },
+    "power=1": {
+      "model": "jitelcraft:block/lamp_analog_1"
+    },
+    "power=2": {
+      "model": "jitelcraft:block/lamp_analog_1"
+    },
+    "power=3": {
+      "model": "jitelcraft:block/lamp_analog_1"
+    },
+    "power=4": {
+      "model": "jitelcraft:block/lamp_analog_1"
+    },
+    "power=5": {
+      "model": "jitelcraft:block/lamp_analog_1"
+    },
+    "power=6": {
+      "model": "jitelcraft:block/lamp_analog_2"
+    },
+    "power=7": {
+      "model": "jitelcraft:block/lamp_analog_2"
+    },
+    "power=8": {
+      "model": "jitelcraft:block/lamp_analog_2"
+    },
+    "power=9": {
+      "model": "jitelcraft:block/lamp_analog_2"
+    },
+    "power=10": {
+      "model": "jitelcraft:block/lamp_analog_2"
+    },
+    "power=11": {
+      "model": "jitelcraft:block/lamp_analog_3"
+    },
+    "power=12": {
+      "model": "jitelcraft:block/lamp_analog_3"
+    },
+    "power=13": {
+      "model": "jitelcraft:block/lamp_analog_3"
+    },
+    "power=14": {
+      "model": "jitelcraft:block/lamp_analog_3"
+    },
+    "power=15": {
+      "model": "jitelcraft:block/lamp_analog_3"
+    }
+  }
+}

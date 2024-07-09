@@ -1,0 +1,9 @@
+{
+  "asset_name": "opal",
+  "description": {
+    "color": "#57b6d1",
+    "translate": "trim_material.jitelcraft.opal"
+  },
+  "ingredient": "jitelcraft:opal_gem",
+  "item_model_index": 0.8
+}

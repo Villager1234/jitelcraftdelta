@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:jitel_sword"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.jitel_sword.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.jitel_sword.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "jitel_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:jitel_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:jitel_gem"
+}

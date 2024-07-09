@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:nuggets/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:jitel_gem",
+    "count": 1
+  }
+}

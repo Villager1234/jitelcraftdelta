@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " g ",
+    "mBc",
+    " g "
+  ],
+  "key": {
+    "B": {
+      "tag": "forge:barrels/wooden"
+    },
+    "g": {
+      "tag": "forge:gears/wooden"
+    },
+    "m": {
+      "tag": "jitelcraft:motor/tier1"
+    },
+    "c": {
+      "tag": "jitelcraft:controller/tier1"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:casing_wooden",
+    "count": 1
+  }
+}
