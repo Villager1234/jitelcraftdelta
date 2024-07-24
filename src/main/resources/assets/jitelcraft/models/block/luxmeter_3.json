@@ -1,6 +1,6 @@
 {
   "parent": "jitelcraft:block/luxmeter",
   "textures": {
-    "overlay": "jitelcraft:block/machine_overlay/luxmeter_block"
+    "overlay": "jitelcraft:block/overlay/luxmeter_block"
   }
 }

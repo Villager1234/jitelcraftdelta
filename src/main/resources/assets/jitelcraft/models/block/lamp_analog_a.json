@@ -24,7 +24,7 @@
     ],
     "textures": {
         "particle": "#top",
-        "frame": "jitelcraft:block/lamp_analog_a_side"
+        "frame": "jitelcraft:block/overlay/lamp_analog_a_side"
     },
     "render_type": "cutout"
 }

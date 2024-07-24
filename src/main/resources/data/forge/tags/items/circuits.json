@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#jitelcraft:controller/tier1",
+    "#jitelcraft:controller/tier2"
+  ]
+}

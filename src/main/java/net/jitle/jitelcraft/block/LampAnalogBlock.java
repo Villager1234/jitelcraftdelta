@@ -13,8 +13,6 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import org.jetbrains.annotations.NotNull;
 
-import javax.annotation.Nullable;
-
 public class LampAnalogBlock extends Block {
     public static final IntegerProperty POWER = BlockStateProperties.POWER;
     public LampAnalogBlock() {

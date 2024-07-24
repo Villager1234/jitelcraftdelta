@@ -23,7 +23,7 @@
         "particle": "#top",
         "top": "jitelcraft:block/casing/stone_top",
         "side": "jitelcraft:block/casing/stone_side",
-        "overlay_up": "jitelcraft:block/machine_overlay/gear"
+        "overlay_up": "jitelcraft:block/overlay/gear"
     },
     "render_type": "cutout"
 }

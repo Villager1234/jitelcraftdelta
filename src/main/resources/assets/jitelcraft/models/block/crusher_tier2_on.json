@@ -1,7 +1,7 @@
 {
     "parent": "jitelcraft:block/crusher_tier2",
     "textures": {
-        "overlay_up": "jitelcraft:block/machine_overlay/crusher_top_on",
-        "overlay_north": "jitelcraft:block/machine_overlay/crusher_front_on"
+        "overlay_up": "jitelcraft:block/overlay/crusher_top_on",
+        "overlay_north": "jitelcraft:block/overlay/crusher_front_on"
     }
 }

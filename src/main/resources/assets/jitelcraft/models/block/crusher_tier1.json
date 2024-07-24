@@ -24,8 +24,8 @@
         "particle": "#top",
         "top": "jitelcraft:block/casing/wooden_top",
         "side": "jitelcraft:block/casing/wooden_side",
-        "overlay_up": "jitelcraft:block/machine_overlay/crusher_top",
-        "overlay_north": "jitelcraft:block/machine_overlay/crusher_front"
+        "overlay_up": "jitelcraft:block/overlay/crusher_top",
+        "overlay_north": "jitelcraft:block/overlay/crusher_front"
     },
     "display": {
         "firstperson_righthand": {

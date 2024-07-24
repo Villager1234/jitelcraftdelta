@@ -3,9 +3,9 @@
   "textures": {
     "side": "jitelcraft:block/casing/wooden_side_hopper",
     "top": "jitelcraft:block/casing/wooden_top",
-    "hop": "jitelcraft:block/machine_overlay/hopper",
-    "hop_large": "jitelcraft:block/machine_overlay/hopper_large",
-    "hop_small": "jitelcraft:block/machine_overlay/hopper_small",
+    "hop": "jitelcraft:block/hopper",
+    "hop_large": "jitelcraft:block/overlay/hopper_large",
+    "hop_small": "jitelcraft:block/overlay/hopper_small",
     "particle": "#top"
   },
   "elements": [
