@@ -175,6 +175,8 @@
   "item.jitelcraft.opal_nugget": "Осколок опала",
   "item.jitelcraft.opal_plate": "Опаловая пластина",
   "item.jitelcraft.opal_rod": "Опаловый стержень",
+  "item.jitelcraft.plate_chestplate": "Нагрудник из каменных плит",
+  "item.jitelcraft.plate_helmet": "Шлем из каменных плит",
   "item.jitelcraft.quartz_dust": "Кварцевая пыль",
   "item.jitelcraft.quartz_gear": "Кварцевая шестерня",
   "item.jitelcraft.quartz_nugget": "Осколок кварца",
@@ -205,7 +207,7 @@
   "text.jitelcraft.tier.5": "§2Уровень V",
   "trim_material.jitelcraft.aluminum": "Алюминиевая",
   "trim_material.jitelcraft.brass": "Латунная",
-  "trim_material.jitelcraft.jitel": "Жительная",
+  "trim_material.jitelcraft.jitel": "Жителиевая",
   "trim_material.jitelcraft.opal": "Опаловая",
   "trim_material.jitelcraft.steel": "Стальная",
   "trim_material.jitelcraft.zinc": "Цинковая"

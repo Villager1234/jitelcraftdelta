@@ -1,5 +1,6 @@
 package net.jitle.jitelcraft;
 
+import net.jitle.jitelcraft.armor.*;
 import net.jitle.jitelcraft.item.*;
 import net.jitle.jitelcraft.item.template.*;
 import net.minecraft.resources.ResourceLocation;
@@ -116,7 +117,7 @@ public class JitelItems {
     public static final RegistryObject<Item> ZINC_ROD = ITEMS.register("zinc_rod", () -> new Item(new Item.Properties()));
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FULL IMPORT ITEMS
     public static final RegistryObject<Item> JITEL_SWORD = ITEMS.register("jitel_sword", JitelSwordItem::new);
-    //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ SIMPLE TOOLS ITEMS
+    //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TOOLS ITEMS
     public static final RegistryObject<Item> CURSED_PICKAXE = ITEMS.register("cursed_pickaxe", () -> new PickaxeItem(new Tier() {
         @Override public int getUses() {return 1792;}
         @Override public float getSpeed() {return 4;}
@@ -125,4 +126,8 @@ public class JitelItems {
         @Override public int getEnchantmentValue() {return 2;}
         @Override public @NotNull Ingredient getRepairIngredient() {return Ingredient.of(ItemTags.create(new ResourceLocation("forge:nuggets/diamond")));}
     }, 1, -2.8f, new Item.Properties()));
+    //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ARMOR ITEMS
+    public static final RegistryObject<Item> PLATE_HELMET = ITEMS.register("plate_helmet", () -> new PlateArmor.PlateArmorItem(ArmorItem.Type.HELMET));
+    public static final RegistryObject<Item> PLATE_CHESTPLATE = ITEMS.register("plate_chestplate", () -> new PlateArmor.PlateArmorItem(ArmorItem.Type.CHESTPLATE));
+    //public static final RegistryObject<Item> PLATE_CHESTPLATE = ITEMS.register("plate_chestplate", () -> new ArmorItem(null, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
 }

@@ -139,24 +139,19 @@ public class JitelTabs {
                         pOutput.accept(JitelItems.COIL.get());
                         pOutput.accept(JitelItems.COIL_COPPER.get());
                         pOutput.accept(JitelItems.COIL_ALUMINUM.get());
-                        pOutput.accept(JitelBlocks.COILBLOCK_COPPER.get());
-                        pOutput.accept(JitelBlocks.COILBLOCK_ALUMINUM.get());
                         pOutput.accept(JitelItems.HAMMER.get());
                         pOutput.accept(JitelItems.JITEL_SWORD.get());
                         pOutput.accept(JitelItems.CURSED_PICKAXE.get());
+                        pOutput.accept(JitelItems.PLATE_HELMET.get());
+                        pOutput.accept(JitelItems.PLATE_CHESTPLATE.get());
+                        //BLOCKS
                         pOutput.accept(JitelBlocks.IRON_DOOR_WL.get());
                         pOutput.accept(JitelBlocks.IRON_TRAPDOOR_WL.get());
                         pOutput.accept(JitelBlocks.OMNIHOPPER.get());
                         pOutput.accept(JitelBlocks.LUXMETER.get());
                         pOutput.accept(JitelBlocks.LAMP_ANALOG.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_BLOCK.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_STAIRS.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_SLAB.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_WALL.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_STAIRS.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_SLAB.get());
-                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_WALL.get());
+                        pOutput.accept(JitelBlocks.COILBLOCK_COPPER.get());
+                        pOutput.accept(JitelBlocks.COILBLOCK_ALUMINUM.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_WHITE.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_LIGHT_GRAY.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_GRAY.get());
@@ -173,6 +168,14 @@ public class JitelTabs {
                         pOutput.accept(JitelBlocks.CHROMAKEY_PURPLE.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_MAGENTA.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_PINK.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_BLOCK.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_STAIRS.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_SLAB.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_WALL.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_STAIRS.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_SLAB.get());
+                        pOutput.accept(JitelBlocks.NO_TEXTURE_BRICKS_WALL.get());
                     })
                     .build()
     );

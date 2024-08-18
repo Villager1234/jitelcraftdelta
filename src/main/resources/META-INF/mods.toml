@@ -11,7 +11,7 @@ license="${mod_license}"
  logoFile="logo.png"
  authors="${mod_authors}"
  description='''${mod_description}'''
-# updateJSONURL=""
+ updateJSONURL="https://raw.githubusercontent.com/Villager1234/jitelcraftdelta/master/update.json"
 # credits=""
 
 [[dependencies.${mod_id}]]

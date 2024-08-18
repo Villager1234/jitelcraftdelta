@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "jitelcraft:hammer"
+      },
+      {
+        "tag": "forge:nuggets/jitel"
+      }
+    ],
+    {
+      "tag": "jitelcraft:controller/tier2"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:controller_tier1_down",
+    "count": 1
+  }
+}

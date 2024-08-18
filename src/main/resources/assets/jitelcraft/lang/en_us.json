@@ -1,6 +1,6 @@
 {
   "advancements.jitelcraft.aluminum_ingot.descr": "Obtain an Aluminum Ingot",
-  "advancements.jitelcraft.aluminum_ingot.title": "Another Ingot",
+  "advancements.jitelcraft.aluminum_ingot.title": "Yet Another Ingot",
   "advancements.jitelcraft.brass_ingot.descr": "Obtain a Brass Ingot",
   "advancements.jitelcraft.brass_ingot.title": "Create Reference?",
   "advancements.jitelcraft.casing_stone.descr": "Obtain a Stone Casing §6[Tier II]§r",
@@ -175,6 +175,8 @@
   "item.jitelcraft.opal_nugget": "Opal Shard",
   "item.jitelcraft.opal_plate": "Opal Plate",
   "item.jitelcraft.opal_rod": "Opal Rod",
+  "item.jitelcraft.plate_chestplate": "Stone Plate Chestplate",
+  "item.jitelcraft.plate_helmet": "Stone Plate Helmet",
   "item.jitelcraft.quartz_dust": "Quartz Dust",
   "item.jitelcraft.quartz_gear": "Quartz Gear",
   "item.jitelcraft.quartz_nugget": "Quartz Shard",

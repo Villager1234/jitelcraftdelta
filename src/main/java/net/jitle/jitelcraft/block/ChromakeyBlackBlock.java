@@ -2,18 +2,18 @@ package net.jitle.jitelcraft.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.level.block.RedstoneLampBlock;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.material.MapColor;
 import org.jetbrains.annotations.NotNull;
 
-public class ChromakeyBlock extends RedstoneLampBlock {
-    public ChromakeyBlock(Properties pProperties) {
-        super(pProperties
+public class ChromakeyBlackBlock extends Block {
+    public ChromakeyBlackBlock() {
+        super(Properties.of()
+                .mapColor(MapColor.COLOR_BLACK)
                 .sound(SoundType.WOOL)
                 .strength(1)
-                .lightLevel((bs) -> bs.getValue(BlockStateProperties.LIT) ? 0 : 15)
                 .isValidSpawn((bs, bg, bp, et) -> false));
     }
     public float getShadeBrightness(@NotNull BlockState pState, @NotNull BlockGetter pLevel, @NotNull BlockPos pPos) {

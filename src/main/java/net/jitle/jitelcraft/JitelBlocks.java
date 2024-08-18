@@ -49,10 +49,6 @@ public class JitelBlocks {
             .strength(3.5f)
             .requiresCorrectToolForDrops(),
             "text.jitelcraft.tier.2"));
-    public static final RegistryObject<Block> CHROMAKEY_BLACK = registerBlock("chromakey_black", () -> new Block(BlockBehaviour.Properties.of()
-            .mapColor(MapColor.COLOR_BLACK)
-            .sound(SoundType.WOOL)
-            .strength(1)));
     public static final RegistryObject<Block> COILBLOCK_ALUMINUM = registerBlock("coilblock_aluminum", () -> new CoilBlock(BlockBehaviour.Properties.of()
             .mapColor(MapColor.ICE)
             .sound(SoundType.METAL)
@@ -162,6 +158,7 @@ public class JitelBlocks {
             .requiresCorrectToolForDrops()));
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FULL IMPORT ITEMS
     public static final RegistryObject<Block> CASING_WOODEN = registerBlock("casing_wooden", CasingWoodenBlock::new);
+    public static final RegistryObject<Block> CHROMAKEY_BLACK = registerBlock("chromakey_black", ChromakeyBlackBlock::new);
     public static final RegistryObject<Block> LAMP_ANALOG = registerBlock("lamp_analog", LampAnalogBlock::new);
     public static final RegistryObject<Block> LUXMETER = registerBlock("luxmeter", LuxmeterBlock::new);
     public static final RegistryObject<Block> OMNIHOPPER = registerBlock("omnihopper", OmnihopperBlock::new);

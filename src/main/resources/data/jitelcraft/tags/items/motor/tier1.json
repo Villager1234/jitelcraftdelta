@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jitelcraft:motor_tier1"
+    "jitelcraft:motor_tier1",
+    "jitelcraft:motor_tier1_down"
   ]
 }

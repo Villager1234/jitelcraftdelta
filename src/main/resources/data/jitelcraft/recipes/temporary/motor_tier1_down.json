@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    [
+      {
+        "item": "jitelcraft:hammer"
+      },
+      {
+        "tag": "forge:nuggets/jitel"
+      }
+    ],
+    {
+      "tag": "jitelcraft:motor/tier2"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:motor_tier1_down",
+    "count": 1
+  }
+}

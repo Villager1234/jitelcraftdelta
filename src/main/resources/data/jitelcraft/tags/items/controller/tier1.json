@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "jitelcraft:controller_tier1"
+    "jitelcraft:controller_tier1",
+    "jitelcraft:controller_tier1_down"
   ]
 }
