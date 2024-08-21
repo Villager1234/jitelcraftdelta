@@ -106,6 +106,7 @@ public class JitelItems {
     public static final RegistryObject<Item> STEEL_NUGGET = ITEMS.register("steel_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_PLATE = ITEMS.register("steel_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_ROD = ITEMS.register("steel_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> STICK_INGOT = ITEMS.register("stick_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STONE_ROD = ITEMS.register("stone_rod", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WOODEN_GEAR = ITEMS.register("wooden_gear", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ZINC_DUST = ITEMS.register("zinc_dust", () -> new Item(new Item.Properties()));
@@ -119,9 +120,9 @@ public class JitelItems {
     public static final RegistryObject<Item> JITEL_SWORD = ITEMS.register("jitel_sword", JitelSwordItem::new);
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TOOLS ITEMS
     public static final RegistryObject<Item> CURSED_PICKAXE = ITEMS.register("cursed_pickaxe", () -> new PickaxeItem(new Tier() {
-        @Override public int getUses() {return 1792;}
-        @Override public float getSpeed() {return 4;}
-        @Override public float getAttackDamageBonus() {return 2;}
+        @Override public int getUses() {return 1408;}
+        @Override public float getSpeed() {return 2;}
+        @Override public float getAttackDamageBonus() {return 1;}
         @Override public int getLevel() {return 0;}
         @Override public int getEnchantmentValue() {return 2;}
         @Override public @NotNull Ingredient getRepairIngredient() {return Ingredient.of(ItemTags.create(new ResourceLocation("forge:nuggets/diamond")));}

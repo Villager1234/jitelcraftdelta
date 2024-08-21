@@ -27,6 +27,22 @@ public class CoilBlock extends Block {
     protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
         builder.add(AXIS, UP, DOWN);
     }
+    @NotNull
+    private static BlockPos changeBlockPos(@NotNull BlockPlaceContext context, int var) {
+        Direction pFacing = context.getClickedFace();
+        int pX = context.getClickedPos().getX();
+        int pY = context.getClickedPos().getY();
+        int pZ = context.getClickedPos().getZ();
+        switch (pFacing) {
+            case DOWN -> pY=pY-var;
+            case UP -> pY=pY+var;
+            case WEST -> pX=pX-var;
+            case EAST -> pX=pX+var;
+            case NORTH -> pZ=pZ-var;
+            case SOUTH -> pZ=pZ+var;
+        }
+        return new BlockPos(pX, pY, pZ);
+    }
     @Override//BLOCK PLACED
     public BlockState getStateForPlacement(@NotNull BlockPlaceContext pContext) {
         Boolean pUp = Boolean.FALSE;
@@ -53,22 +69,6 @@ public class CoilBlock extends Block {
             }
         }
         return this.defaultBlockState().setValue(AXIS, pContext.getClickedFace().getAxis()).setValue(UP, pUp).setValue(DOWN, pDown);
-    }
-    @NotNull
-    private static BlockPos changeBlockPos(@NotNull BlockPlaceContext context, int var) {
-        Direction pFacing = context.getClickedFace();
-        int pX = context.getClickedPos().getX();
-        int pY = context.getClickedPos().getY();
-        int pZ = context.getClickedPos().getZ();
-        switch (pFacing) {
-            case DOWN -> pY=pY-var;
-            case UP -> pY=pY+var;
-            case WEST -> pX=pX-var;
-            case EAST -> pX=pX+var;
-            case NORTH -> pZ=pZ-var;
-            case SOUTH -> pZ=pZ+var;
-        }
-        return new BlockPos(pX, pY, pZ);
     }
     @Override//NEIGHBOR BROKEN
     public void neighborChanged(@NotNull BlockState pState, Level pLevel, @NotNull BlockPos pPos, @NotNull Block pBlock, @NotNull BlockPos pFromPos, boolean pIsMoving) {

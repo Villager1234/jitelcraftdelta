@@ -1,3 +1,21 @@
+### 0.2.3.b2
+* Added items:
+  * Pointer Block (WIP)
+  * Pointer Pillar (WIP)
+  * Stick Parallelepiped (WIP)
+* Plate armor is now trimmable
+* Chromakeys no longer create particles
+* Changed textures for:
+  * Brass Components
+  * Deepslate Jitel Ore
+  * Jitel Dust
+  * Jitel Ore
+  * Jitel Sword
+  * Plate armor
+  * Wooden Gear
+* Added tags to Reinforced Wooden Pickaxe and Plate armor
+* Changed the description of the mod again
+* Technical changes
 
 ### 0.2.3.b1
 * Added Plate armor (helmet and chestplate)
@@ -6,10 +24,10 @@
 * All chromakey blocks no longer darken adjacent blocks
 * Changed the description and license of the mod
 * Technical changes
-* Added support of Forge Update Checker
+* Added support for Forge Update Checker
 ---
 ## 0.2.3.0
-* Added #forge:circuits tag to mechanism controllers. This tag is used in mods such as Mekanism and Electrodynamics, among others
+* Added #forge:circuits tag to mechanism controllers. This tag is used in mods such as Mekanism and Electrodynamics (and maybe others)
 * Technical changes
 
 ### 0.2.2.b1
@@ -93,7 +111,7 @@
 ### 0.1.1.b2
 * Added Jitel Dust
 * Added Tier II downgraded Controller and Motor (WIP)
-* The textures of the following items have been changed:
+* Changed textures for:
   * Crusher
   * Stone Casing
   * Halite

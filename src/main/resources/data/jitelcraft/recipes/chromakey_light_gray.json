@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "DJD",
     "DGD",
-    "DJD"
+    "DJD",
+    "DGD"
   ],
   "key": {
     "D": {

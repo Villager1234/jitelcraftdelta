@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "jitelcraft:block/pointer_side",
+    "bottom": "jitelcraft:block/pointer_bottom",
+    "top": "jitelcraft:block/pointer_top"
+  }
+}

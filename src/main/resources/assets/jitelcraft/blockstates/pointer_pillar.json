@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "jitelcraft:block/pointer_pillar",
+      "y": 90,
+      "x": 90
+    },
+    "facing=north": {
+      "model": "jitelcraft:block/pointer_pillar",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "jitelcraft:block/pointer_pillar",
+      "y": 180,
+      "x": 90
+    },
+    "facing=west": {
+      "model": "jitelcraft:block/pointer_pillar",
+      "y": 270,
+      "x": 90
+    },
+    "facing=up": {
+      "model": "jitelcraft:block/pointer_pillar"
+    },
+    "facing=down": {
+      "model": "jitelcraft:block/pointer_pillar",
+      "x": 180
+    }
+  }
+}

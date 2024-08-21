@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "jitelcraft:block/chromakey",
   "textures": {
     "all": "jitelcraft:block/chromakey_black"
   }

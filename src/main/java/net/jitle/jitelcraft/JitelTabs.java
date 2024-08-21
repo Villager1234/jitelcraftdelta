@@ -73,6 +73,7 @@ public class JitelTabs {
                         pOutput.accept(JitelItems.SALT.get());
                         //VANILLA MATERIALS
                         pOutput.accept(JitelItems.WOODEN_GEAR.get());
+                        pOutput.accept(JitelItems.STICK_INGOT.get());
                         pOutput.accept(JitelItems.STONE_ROD.get());
                         pOutput.accept(JitelItems.COAL_PLATE.get());
                         pOutput.accept(JitelItems.COAL_DUST.get());
@@ -152,6 +153,8 @@ public class JitelTabs {
                         pOutput.accept(JitelBlocks.LAMP_ANALOG.get());
                         pOutput.accept(JitelBlocks.COILBLOCK_COPPER.get());
                         pOutput.accept(JitelBlocks.COILBLOCK_ALUMINUM.get());
+                        pOutput.accept(JitelBlocks.POINTER_BLOCK.get());
+                        pOutput.accept(JitelBlocks.POINTER_PILLAR.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_WHITE.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_LIGHT_GRAY.get());
                         pOutput.accept(JitelBlocks.CHROMAKEY_GRAY.get());

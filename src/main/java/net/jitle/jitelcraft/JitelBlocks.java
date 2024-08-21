@@ -133,6 +133,14 @@ public class JitelBlocks {
             .strength(4.5f, 3)
             .requiresCorrectToolForDrops(),
             UniformInt.of(3,5)));
+    public static final RegistryObject<Block> POINTER_BLOCK = registerBlock("pointer_block", () -> new Facing4PlayerBlock(BlockBehaviour.Properties.of()
+            .mapColor(MapColor.RAW_IRON)
+            .strength(1.4f)
+            .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> POINTER_PILLAR = registerBlock("pointer_pillar", () -> new Facing6PlayerBlock(BlockBehaviour.Properties.of()
+            .mapColor(MapColor.RAW_IRON)
+            .strength(1.4f)
+            .requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block", () -> new Block(BlockBehaviour.Properties.of()
             .mapColor(MapColor.COLOR_GRAY)
             .sound(SoundType.METAL)

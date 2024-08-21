@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bMw",
+    " J ",
+    "wMb"
+  ],
+  "key": {
+    "b": {
+      "tag": "forge:dyes/black"
+    },
+    "w": {
+      "tag": "forge:dyes/white"
+    },
+    "M": {
+      "item": "magenta_glazed_terracotta"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:pointer_block",
+    "count": 2
+  }
+}

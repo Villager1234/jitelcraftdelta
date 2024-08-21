@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "jitelcraft:pointer_block"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:pointer_pillar",
+    "count": 4
+  }
+}

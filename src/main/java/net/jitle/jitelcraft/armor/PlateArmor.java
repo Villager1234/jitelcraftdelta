@@ -49,7 +49,7 @@ public abstract class PlateArmor extends ArmorItem {
             }
             @Override
             public float getKnockbackResistance() {
-                return 0.2f;
+                return 0.12f;
             }
         }, type, properties);
     }

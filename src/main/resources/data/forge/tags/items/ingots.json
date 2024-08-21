@@ -1,9 +1,9 @@
 {
-  "replace": false,
   "values": [
     "jitelcraft:aluminum_ingot",
     "jitelcraft:brass_ingot",
     "jitelcraft:steel_ingot",
+    "jitelcraft:stick_ingot",
     "jitelcraft:zinc_ingot"
   ]
 }
