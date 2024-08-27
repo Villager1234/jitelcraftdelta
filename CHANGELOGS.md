@@ -1,3 +1,15 @@
+### 0.2.3.b3
+* (temporary?) removed Stick Parallelepiped
+* Added Flasks with dye for each color
+* Changed textures for Pointer Block and Pointer Pillar
+* Added advancement for obtaining Pointer Block or Pointer Pillar
+* Luxmeters and Pointer blocks and pillars are now placed in the opposite facing while sneaking
+* Reworked way of texturing downgraded motors and controllers 
+* Optimized code of Coil blocks
+  * There is a small chance that this is causing crashes, if so, I don't know how to fix it yet
+* Rebalanced some of the mod's recipes, mostly those that use dyes
+* Technical changes
+
 ### 0.2.3.b2
 * Added items:
   * Pointer Block (WIP)

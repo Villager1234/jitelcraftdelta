@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:potion",
+      "type": "forge:nbt",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    },
+    {
+      "tag": "forge:dyes/pink"
+    },
+    {
+      "tag": "forge:dusts/jitel"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:flask_dye_pink",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/light_gray"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:chromakey_light_gray",
+    "count": 8
+  }
+}

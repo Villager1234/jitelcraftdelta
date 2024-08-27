@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/magenta"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:chromakey_magenta",
+    "count": 8
+  }
+}

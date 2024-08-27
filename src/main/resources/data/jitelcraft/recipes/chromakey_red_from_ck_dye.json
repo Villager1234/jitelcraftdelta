@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/red"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:chromakey_red",
+    "count": 8
+  }
+}

@@ -9,9 +9,9 @@ public class JitelcraftMod {
     public static final String MODID = "jitelcraft";
     public JitelcraftMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        JitelItems.ITEMS.register(bus);
-        JitelBlocks.BLOCKS.register(bus);
-        JitelTabs.TABS.register(bus);
-        JitelBlockEntities.BLOCK_ENTITIES.register(bus);
+        JCItems.ITEMS.register(bus);
+        JCBlocks.BLOCKS.register(bus);
+        JCTabs.TABS.register(bus);
+        JCBlockEntities.BLOCK_ENTITIES.register(bus);
     }
 }

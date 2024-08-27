@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bCm",
+    " J ",
+    "mCb"
+  ],
+  "key": {
+    "b": {
+      "item": "jitelcraft:flask_dye_black"
+    },
+    "m": {
+      "item": "jitelcraft:flask_dye_magenta"
+    },
+    "C": {
+      "tag": "minecraft:stone_bricks"
+    },
+    "J": {
+      "tag": "forge:gems/jitel"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:no_texture_bricks",
+    "count": 2
+  }
+}

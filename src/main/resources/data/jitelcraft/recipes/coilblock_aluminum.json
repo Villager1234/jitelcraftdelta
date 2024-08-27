@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ppp",
+    "cpc",
     "cGc",
-    "ppp"
+    "cpc"
   ],
   "key": {
     "c": {
@@ -18,6 +18,6 @@
   },
   "result": {
     "item": "jitelcraft:coilblock_aluminum",
-    "count": 1
+    "count": 4
   }
 }

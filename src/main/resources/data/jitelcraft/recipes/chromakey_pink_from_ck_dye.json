@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:dyes/pink"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:chromakey_pink",
+    "count": 8
+  }
+}

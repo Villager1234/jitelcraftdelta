@@ -18,7 +18,7 @@ public class CrusherBlock extends Facing4PlayerBlock {
     public static final BooleanProperty ACTIVE = BooleanProperty.create("active");
     private final String tier;
     public CrusherBlock(Properties pProperties, String tier) {
-        super(pProperties);
+        super(pProperties, false);
         this.registerDefaultState(this.stateDefinition.any().setValue(ACTIVE, Boolean.FALSE).setValue(FACING, Direction.NORTH));
         this.tier=tier;
     }

@@ -1,7 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "jitelcraft:item/controller_down",
-    "layer1": "jitelcraft:item/controller_down_tier1"
-  }
+  "parent": "jitelcraft:item/controller_down"
 }

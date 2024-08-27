@@ -1,0 +1,17 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jitelcraft:item/flask",
+    "layer1": "jitelcraft:item/flask_overlay_9"
+  },
+  "overrides": [
+    {"predicate": {"damaged": 1, "damage": 0.0625}, "model": "jitelcraft:item/flask_dye_8"},
+    {"predicate": {"damaged": 1, "damage": 0.1250}, "model": "jitelcraft:item/flask_dye_7"},
+    {"predicate": {"damaged": 1, "damage": 0.2500}, "model": "jitelcraft:item/flask_dye_6"},
+    {"predicate": {"damaged": 1, "damage": 0.3750}, "model": "jitelcraft:item/flask_dye_5"},
+    {"predicate": {"damaged": 1, "damage": 0.5000}, "model": "jitelcraft:item/flask_dye_4"},
+    {"predicate": {"damaged": 1, "damage": 0.6250}, "model": "jitelcraft:item/flask_dye_3"},
+    {"predicate": {"damaged": 1, "damage": 0.7500}, "model": "jitelcraft:item/flask_dye_2"},
+    {"predicate": {"damaged": 1, "damage": 0.8750}, "model": "jitelcraft:item/flask_dye_1"}
+  ]
+}

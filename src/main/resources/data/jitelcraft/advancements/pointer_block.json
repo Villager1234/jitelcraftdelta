@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:pointer_pillar"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.pointer_block.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.pointer_block.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "pointer_block",
+      "pointer_pillar"
+    ]
+  ],
+  "criteria": {
+    "pointer_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:pointer_block"
+            ]
+          }
+        ]
+      }
+    },
+    "pointer_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:pointer_pillar"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:jitel_gem"
+}

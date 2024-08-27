@@ -1,6 +1,6 @@
 {
   "parent": "jitelcraft:item/chromakey",
   "textures": {
-    "block": "jitelcraft:block/chromakey_red"
+    "block": "jitelcraft:item/color/red"
   }
 }

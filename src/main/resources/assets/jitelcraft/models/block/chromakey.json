@@ -16,6 +16,6 @@
   ],
   "ambientocclusion": false,
   "textures": {
-    "particle": "jitelcraft:item/empty"
+    "particle": "jitelcraft:item/color/empty"
   }
 }

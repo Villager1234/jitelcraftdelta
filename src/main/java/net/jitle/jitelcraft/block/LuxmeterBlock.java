@@ -1,6 +1,6 @@
 package net.jitle.jitelcraft.block;
 
-import net.jitle.jitelcraft.JitelBlockEntities;
+import net.jitle.jitelcraft.JCBlockEntities;
 import net.jitle.jitelcraft.block.template.Facing6PlayerBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -31,7 +31,7 @@ public class LuxmeterBlock extends Facing6PlayerBlock implements EntityBlock {
         super(Properties.of()
                 .mapColor(MapColor.STONE)
                 .strength(4)
-                .requiresCorrectToolForDrops());
+                .requiresCorrectToolForDrops(), true);
         this.registerDefaultState(this.stateDefinition.any().setValue(MODE, 1).setValue(POWER, 0).setValue(FACING, Direction.NORTH));
     }
     @NotNull
@@ -89,7 +89,7 @@ public class LuxmeterBlock extends Facing6PlayerBlock implements EntityBlock {
         }
     }*/
     public BlockEntity newBlockEntity(@NotNull BlockPos pos, @NotNull BlockState state) {
-        return JitelBlockEntities.LUXMETER_BE.get().create(pos, state);
+        return JCBlockEntities.LUXMETER_BE.get().create(pos, state);
     }
     @Nullable
     @Override

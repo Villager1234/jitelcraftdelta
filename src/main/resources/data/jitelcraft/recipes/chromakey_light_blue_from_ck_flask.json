@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jitelcraft:flask_dye_light_blue"
+    },
+    {
+      "item": "jitelcraft:flask_dye_light_blue"
+    },
+    {
+      "tag": "jitelcraft:chromakey"
+    }
+  ],
+  "result": {
+    "item": "jitelcraft:chromakey_light_blue",
+    "count": 1
+  }
+}

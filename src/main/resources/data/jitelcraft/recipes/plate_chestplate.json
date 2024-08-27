@@ -1,15 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "SjS",
-    "SSS"
+    "S S",
+    "SSS",
+    " S "
   ],
   "key": {
     "S": {
       "item": "minecraft:smooth_stone_slab"
-    },
-    "j": {
-      "tag": "forge:gems/jitel"
     }
   },
   "result": {

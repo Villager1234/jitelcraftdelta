@@ -13,9 +13,11 @@ import org.jetbrains.annotations.NotNull;
 
 public class Facing4PlayerBlock extends Block {
     public static final EnumProperty<Direction> FACING = BlockStateProperties.FACING;
-    public Facing4PlayerBlock(Properties pProperties) {
+    private final Boolean sneaking;
+    public Facing4PlayerBlock(Properties pProperties, Boolean sneaking) {
         super(pProperties);
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
+        this.sneaking = sneaking;
     }
     @Override
     protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
@@ -23,7 +25,7 @@ public class Facing4PlayerBlock extends Block {
     }
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, sneaking && context.isSecondaryUseActive() ? context.getHorizontalDirection() : context.getHorizontalDirection().getOpposite());
     }
     @Override
     public @NotNull BlockState rotate(BlockState state, Rotation rot) {

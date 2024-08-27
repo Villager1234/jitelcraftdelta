@@ -3,7 +3,7 @@ package net.jitle.jitelcraft.block.template;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Rotation;
@@ -70,44 +70,27 @@ public class CoilBlock extends Block {
         }
         return this.defaultBlockState().setValue(AXIS, pContext.getClickedFace().getAxis()).setValue(UP, pUp).setValue(DOWN, pDown);
     }
-    @Override//NEIGHBOR BROKEN
-    public void neighborChanged(@NotNull BlockState pState, Level pLevel, @NotNull BlockPos pPos, @NotNull Block pBlock, @NotNull BlockPos pFromPos, boolean pIsMoving) {
-        if (!pLevel.isClientSide) {
-            Direction.Axis pAxis = pState.getValue(AXIS);
-            if (this != pLevel.getBlockState(pFromPos).getBlock()) {
-                int pPosGet = pPos.getY();
-                int pFromPosGet = pFromPos.getY();
-                if (pAxis == Direction.Axis.X) {
-                    pPosGet = pPos.getX();
-                    pFromPosGet = pFromPos.getX();
-                } else if (pAxis == Direction.Axis.Z) {
-                    pPosGet = pPos.getZ();
-                    pFromPosGet = pFromPos.getZ();
+    @Override
+    public @NotNull BlockState updateShape(BlockState pState, Direction pFacing, @NotNull BlockState pFacingState, @NotNull LevelAccessor pLevel, @NotNull BlockPos pCurrentPos, @NotNull BlockPos pFacingPos) {
+        Direction.Axis pAxis = pState.getValue(AXIS);
+        if (pFacing.getAxis() == pAxis) {
+            if (this != pFacingState.getBlock()) {
+                //NEIGHBOR BROKEN
+                if (pFacing == Direction.DOWN || pFacing == Direction.WEST || pFacing == Direction.NORTH) {
+                    return pState.getValue(DOWN) ? pState.setValue(DOWN, Boolean.FALSE) : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
+                } else {
+                    return pState.getValue(UP) ? pState.setValue(UP, Boolean.FALSE) : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
                 }
-                if (pPosGet > pFromPosGet && pState.getValue(DOWN)) {
-                    pLevel.setBlock(pPos, pState.setValue(DOWN, Boolean.FALSE), 2);
-                } else if (pPosGet < pFromPosGet && pState.getValue(UP)) {
-                    pLevel.setBlock(pPos, pState.setValue(UP, Boolean.FALSE), 2);
-                }
+            } else if (pAxis == pFacingState.getValue(AXIS)) {
                 //NEIGHBOR PLACED
-            } else if (pAxis == pLevel.getBlockState(pFromPos).getValue(AXIS)) {
-                BlockState pNeighState = pLevel.getBlockState(pFromPos);
-                int pPosGet = pPos.getY();
-                int pFromPosGet = pFromPos.getY();
-                if (pAxis == Direction.Axis.X) {
-                    pPosGet = pPos.getX();
-                    pFromPosGet = pFromPos.getX();
-                } else if (pAxis == Direction.Axis.Z) {
-                    pPosGet = pPos.getZ();
-                    pFromPosGet = pFromPos.getZ();
-                }
-                if (pPosGet > pFromPosGet && !pState.getValue(DOWN) && pNeighState.getValue(UP)) {
-                    pLevel.setBlock(pPos, pState.setValue(DOWN, Boolean.TRUE), 2);
-                } else if (pPosGet < pFromPosGet && !pState.getValue(UP) && pNeighState.getValue(DOWN)) {
-                    pLevel.setBlock(pPos, pState.setValue(UP, Boolean.TRUE), 2);
+                if (pFacing == Direction.DOWN || pFacing == Direction.WEST || pFacing == Direction.NORTH) {
+                    return !pState.getValue(DOWN) && pFacingState.getValue(UP) ? pState.setValue(DOWN, Boolean.TRUE) : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
+                } else {
+                    return !pState.getValue(UP) && pFacingState.getValue(DOWN) ? pState.setValue(UP, Boolean.TRUE) : super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
                 }
             }
         }
+        return super.updateShape(pState, pFacing, pFacingState, pLevel, pCurrentPos, pFacingPos);
     }
     @Override
     public @NotNull BlockState rotate(@NotNull BlockState state, @NotNull Rotation rot) {

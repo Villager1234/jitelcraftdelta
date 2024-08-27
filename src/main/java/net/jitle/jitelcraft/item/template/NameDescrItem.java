@@ -20,6 +20,7 @@ public class NameDescrItem extends Item {
     @Override
     public void appendHoverText(@NotNull ItemStack itemstack, Level world, @NotNull List<Component> list, @NotNull TooltipFlag flag) {
         super.appendHoverText(itemstack, world, list, flag);
+        //list.add(Component.literal(this.descrColor).append(Component.translatable("text.jitelcraft.tier")).append(Component.literal(" "+this.tier)));
         list.add(Component.translatable(this.descr));
     }
     @Override

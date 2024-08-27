@@ -1,28 +1,30 @@
 {
-    "parent": "minecraft:block/block",
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "down":  { "texture": "#top", "cullface": "down" },
-                "up":    { "texture": "#top", "cullface": "up" },
-                "north": { "texture": "#side", "cullface": "north" },
-                "south": { "texture": "#side", "cullface": "south" },
-                "west":  { "texture": "#side", "cullface": "west" },
-                "east":  { "texture": "#side", "cullface": "east" }
-            }
-        },
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "up": { "texture": "#overlay", "cullface": "up" }
-            }
-        }
-    ],
-    "textures": {
-        "particle": "#top",
-        "top": "jitelcraft:block/casing/stone_top",
-        "side": "jitelcraft:block/casing/stone_side"
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#top", "cullface": "down" },
+        "up":    { "texture": "#top", "cullface": "up" },
+        "north": { "texture": "#side", "cullface": "north" },
+        "south": { "texture": "#side", "cullface": "south" },
+        "west":  { "texture": "#side", "cullface": "west" },
+        "east":  { "texture": "#side", "cullface": "east" }
+      }
     },
-    "render_type": "cutout"
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "up": { "texture": "#overlay", "cullface": "up" }
+      }
+    }
+  ],
+  "textures": {
+    "particle": "#top",
+    "top": "jitelcraft:block/casing/stone_top",
+    "side": "jitelcraft:block/casing/stone_side"
+  },
+  "render_type": "cutout"
 }

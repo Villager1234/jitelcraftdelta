@@ -1,30 +1,32 @@
 {
-    "parent": "minecraft:block/block",
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "down":  { "texture": "#top", "cullface": "down" },
-                "up":    { "texture": "#top", "cullface": "up" },
-                "north": { "texture": "#side", "cullface": "north" },
-                "south": { "texture": "#side", "cullface": "south" },
-                "west":  { "texture": "#side", "cullface": "west" },
-                "east":  { "texture": "#side", "cullface": "east" }
-            }
-        },
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "north": { "texture": "#frame", "cullface": "north" },
-                "south": { "texture": "#frame", "cullface": "south" },
-                "west":  { "texture": "#frame", "cullface": "west" },
-                "east":  { "texture": "#frame", "cullface": "east" }
-            }
-        }
-    ],
-    "textures": {
-        "particle": "#top",
-        "frame": "jitelcraft:block/overlay/lamp_analog_a_side"
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#top", "cullface": "down" },
+        "up":    { "texture": "#top", "cullface": "up" },
+        "north": { "texture": "#side", "cullface": "north" },
+        "south": { "texture": "#side", "cullface": "south" },
+        "west":  { "texture": "#side", "cullface": "west" },
+        "east":  { "texture": "#side", "cullface": "east" }
+      }
     },
-    "render_type": "cutout"
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "north": { "texture": "#frame", "cullface": "north" },
+        "south": { "texture": "#frame", "cullface": "south" },
+        "west":  { "texture": "#frame", "cullface": "west" },
+        "east":  { "texture": "#frame", "cullface": "east" }
+      }
+    }
+  ],
+  "textures": {
+    "particle": "#top",
+    "frame": "jitelcraft:block/overlay/lamp_analog_a_side"
+  },
+  "render_type": "cutout"
 }

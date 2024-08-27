@@ -1,7 +1,7 @@
 {
   "parent": "jitelcraft:item/chromakey",
   "textures": {
-    "block": "jitelcraft:block/chromakey_black",
+    "block": "jitelcraft:item/color/black",
     "lamp": "jitelcraft:item/lamp"
   }
 }

@@ -1,38 +1,40 @@
 {
-    "parent": "minecraft:block/block",
-    "elements": [
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "down":  { "texture": "#block", "cullface": "down" },
-                "up":    { "texture": "#block", "cullface": "up" },
-                "north": { "texture": "#block", "cullface": "north" },
-                "south": { "texture": "#block", "cullface": "south" },
-                "west":  { "texture": "#block", "cullface": "west" },
-                "east":  { "texture": "#block", "cullface": "east" }
-            }
-        },
-        {   "from": [ 0, 0, 0 ],
-            "to": [ 16, 16, 16 ],
-            "faces": {
-                "north": { "texture": "#lamp", "cullface": "north" },
-                "south": { "texture": "#lamp", "cullface": "south" },
-                "west":  { "texture": "#lamp", "cullface": "west" },
-                "east":  { "texture": "#lamp", "cullface": "east" }
-            }
-        }
-    ],
-    "textures": {
-        "particle": "#block",
-        "lamp": "jitelcraft:item/lamp_lit"
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#block", "cullface": "down" },
+        "up":    { "texture": "#block", "cullface": "up" },
+        "north": { "texture": "#block", "cullface": "north" },
+        "south": { "texture": "#block", "cullface": "south" },
+        "west":  { "texture": "#block", "cullface": "west" },
+        "east":  { "texture": "#block", "cullface": "east" }
+      }
     },
-    "gui_light": "front",
-    "display": {
-        "gui": {
-            "rotation": [ 0, 0, 0 ],
-            "translation": [ 0, 0, 0],
-            "scale":[ 1, 1, 1]
-        }
-    },
-    "render_type": "translucent"
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "north": { "texture": "#lamp", "cullface": "north" },
+        "south": { "texture": "#lamp", "cullface": "south" },
+        "west":  { "texture": "#lamp", "cullface": "west" },
+        "east":  { "texture": "#lamp", "cullface": "east" }
+      }
+    }
+  ],
+  "textures": {
+    "particle": "#block",
+    "lamp": "jitelcraft:item/lamp_lit"
+  },
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 1, 1, 1]
+    }
+  },
+  "render_type": "translucent"
 }

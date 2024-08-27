@@ -1,7 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "jitelcraft:item/motor_down",
-    "layer1": "jitelcraft:item/motor_down_tier1"
-  }
+  "parent": "jitelcraft:item/motor_down"
 }

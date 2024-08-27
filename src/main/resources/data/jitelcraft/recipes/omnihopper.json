@@ -1,15 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "C",
+    "o",
+    "B",
     "H"
   ],
   "key": {
+    "B": {
+      "tag": "forge:barrels/wooden"
+    },
     "H": {
       "item": "minecraft:hopper"
     },
-    "C": {
-      "item": "jitelcraft:casing_wooden"
+    "o": {
+      "tag": "jitelcraft:controller/tier1"
     }
   },
   "result": {

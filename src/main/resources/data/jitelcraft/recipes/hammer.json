@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "IJI",
+    "IgI",
     "IrI",
     " r "
   ],
@@ -12,8 +12,8 @@
     "I": {
       "tag": "forge:ingots/iron"
     },
-    "J": {
-      "tag": "forge:gems/jitel"
+    "g": {
+      "tag": "forge:gears/wooden"
     }
   },
   "result": {

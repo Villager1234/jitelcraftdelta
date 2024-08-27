@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "D D",
-    "rCr",
-    "rpr"
+    "CDC",
+    "CoC",
+    "CrC"
   ],
   "key": {
     "D": {
@@ -13,14 +13,14 @@
       "tag": "forge:dusts/redstone"
     },
     "C": {
-      "item": "jitelcraft:casing_stone"
+      "tag": "forge:cobblestone/normal"
     },
-    "p": {
-      "item": "minecraft:comparator"
+    "o": {
+      "tag": "jitelcraft:controller/tier1"
     }
   },
   "result": {
     "item": "jitelcraft:luxmeter",
-    "count": 2
+    "count": 1
   }
 }

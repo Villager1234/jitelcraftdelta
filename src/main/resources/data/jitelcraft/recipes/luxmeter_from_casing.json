@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "rCr"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:daylight_detector"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "C": {
+      "item": "jitelcraft:casing_stone"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:luxmeter",
+    "count": 3
+  }
+}
