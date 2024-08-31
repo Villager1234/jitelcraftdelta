@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:plate_chestplate"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.plate_armor.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.plate_armor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "plate_chestplate",
+      "plate_helmet"
+    ]
+  ],
+  "criteria": {
+    "plate_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:plate_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "plate_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:plate_helmet"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

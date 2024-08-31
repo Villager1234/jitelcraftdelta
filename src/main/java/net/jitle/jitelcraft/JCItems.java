@@ -3,6 +3,7 @@ package net.jitle.jitelcraft;
 import net.jitle.jitelcraft.armor.*;
 import net.jitle.jitelcraft.item.*;
 import net.jitle.jitelcraft.item.template.*;
+import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.*;
@@ -114,6 +115,7 @@ public class JCItems {
     public static final RegistryObject<Item> QUARTZ_NUGGET = ITEMS.register("quartz_nugget", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> QUARTZ_PLATE = ITEMS.register("quartz_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> QUARTZ_ROD = ITEMS.register("quartz_rod", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> REDSTONE_TORCH_CEILING = ITEMS.register("redstone_torch_ceiling", () -> new StandingAndWallBlockItem(JCBlocks.REDSTONE_TORCH_CEILING.get(), JCBlocks.REDSTONE_WALL_TORCH_CEILING.get(), new Item.Properties(), Direction.UP));
     public static final RegistryObject<Item> SALT = ITEMS.register("salt", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_COMPONENTS = ITEMS.register("steel_components", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STEEL_DUST = ITEMS.register("steel_dust", () -> new Item(new Item.Properties()));

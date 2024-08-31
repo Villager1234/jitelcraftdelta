@@ -19,4 +19,8 @@ public class ChromakeyBlock extends RedstoneLampBlock {
     public float getShadeBrightness(@NotNull BlockState pState, @NotNull BlockGetter pLevel, @NotNull BlockPos pPos) {
         return 1.0F;
     }
+    /*@Override
+    public @NotNull VoxelShape getShape(@NotNull BlockState state, @NotNull BlockGetter world, @NotNull BlockPos pos, @NotNull CollisionContext context) {
+        return Block.box(0, 0, 0, 16, 16, 15);
+    }*/
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "jitelcraft:block/redstone_wall_torch_ceiling",
+  "textures": {
+    "torch": "jitelcraft:block/redstone_torch_ceiling_off"
+  }
+}

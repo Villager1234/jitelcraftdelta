@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:redstone_torch_ceiling"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.redstone_torch_ceiling.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.redstone_torch_ceiling.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aluminum_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:redstone_torch_ceiling"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

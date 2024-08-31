@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "jitelcraft:block/redstone_torch_ceiling_off",
+      "x": 180
+    },
+    "lit=true": {
+      "model": "jitelcraft:block/redstone_torch_ceiling",
+      "x": 180
+    }
+  }
+}

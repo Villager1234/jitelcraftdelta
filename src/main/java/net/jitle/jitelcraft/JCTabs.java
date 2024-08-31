@@ -14,7 +14,7 @@ public class JCTabs {
                     .icon(() -> new ItemStack(JCItems.JITEL_GEM.get()))
                     .title(Component.translatable("itemGroup.jitelcraft.main"))
                     .displayItems((pParameters, pOutput) -> {
-                        //MOD MATERIALS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ MOD MATERIALS
                         pOutput.accept(JCBlocks.JITEL_ORE.get());
                         pOutput.accept(JCBlocks.JITEL_ORE_DEEPSLATE.get());
                         pOutput.accept(JCItems.JITEL_GEM.get());
@@ -71,7 +71,7 @@ public class JCTabs {
                         pOutput.accept(JCItems.OPAL_DUST.get());
                         pOutput.accept(JCBlocks.HALITE.get());
                         pOutput.accept(JCItems.SALT.get());
-                        //VANILLA MATERIALS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ VANILLA MATERIALS
                         pOutput.accept(JCItems.WOODEN_GEAR.get());
                         pOutput.accept(JCItems.STONE_ROD.get());
                         pOutput.accept(JCItems.COAL_PLATE.get());
@@ -120,38 +120,39 @@ public class JCTabs {
                         pOutput.accept(JCItems.AMETHYST_PLATE.get());
                         pOutput.accept(JCItems.AMETHYST_GEAR.get());
                         pOutput.accept(JCItems.AMETHYST_DUST.get());
-                        //TIER 1
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TIER 1
                         pOutput.accept(JCItems.MOTOR_TIER1.get());
                         pOutput.accept(JCItems.CONTROLLER_TIER1.get());
                         pOutput.accept(JCItems.MOTOR_TIER1_DOWN.get());
                         pOutput.accept(JCItems.CONTROLLER_TIER1_DOWN.get());
                         pOutput.accept(JCBlocks.CASING_WOODEN.get());
                         //pOutput.accept(JCBlocks.CRUSHER_TIER1.get());
-                        //TIER 2
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TIER 2
                         pOutput.accept(JCItems.MOTOR_TIER2.get());
                         pOutput.accept(JCItems.CONTROLLER_TIER2.get());
                         pOutput.accept(JCItems.MOTOR_TIER2_DOWN.get());
                         pOutput.accept(JCItems.CONTROLLER_TIER2_DOWN.get());
                         pOutput.accept(JCBlocks.CASING_STONE.get());
                         //pOutput.accept(JCBlocks.CRUSHER_TIER2.get());
-                        //CRAFT PARTS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ CRAFT PARTS
                         pOutput.accept(JCItems.HAMMER.get());
                         pOutput.accept(JCItems.CRUSHER_PART.get());
                         pOutput.accept(JCItems.COIL.get());
                         pOutput.accept(JCItems.COIL_COPPER.get());
                         pOutput.accept(JCItems.COIL_ALUMINUM.get());
-                        //TOOLS WEAponS ARMORS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TOOLS WEAponS ARMORS
                         pOutput.accept(JCItems.CURSED_PICKAXE.get());
                         //pOutput.accept(JCItems.JITEL_SWORD.get());
                         pOutput.accept(JCItems.PLATE_HELMET.get());
                         pOutput.accept(JCItems.PLATE_CHESTPLATE.get());
-                        //USEFUL BLOCKS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ USEFUL BLOCKS
                         pOutput.accept(JCBlocks.IRON_DOOR_WL.get());
                         pOutput.accept(JCBlocks.IRON_TRAPDOOR_WL.get());
+                        pOutput.accept(JCItems.REDSTONE_TORCH_CEILING.get());
                         //pOutput.accept(JCBlocks.OMNIHOPPER.get());
                         pOutput.accept(JCBlocks.LUXMETER.get());
                         pOutput.accept(JCBlocks.LAMP_ANALOG.get());
-                        //BUILDING BLOCKS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ BUILDING BLOCKS
                         pOutput.accept(JCBlocks.COILBLOCK_COPPER.get());
                         pOutput.accept(JCBlocks.COILBLOCK_ALUMINUM.get());
                         pOutput.accept(JCBlocks.POINTER_BLOCK.get());
@@ -180,7 +181,7 @@ public class JCTabs {
                         pOutput.accept(JCBlocks.CHROMAKEY_PURPLE.get());
                         pOutput.accept(JCBlocks.CHROMAKEY_MAGENTA.get());
                         pOutput.accept(JCBlocks.CHROMAKEY_PINK.get());
-                        //FLASKS
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FLASKS
                         pOutput.accept(JCItems.FLASK_DYE_WHITE.get());
                         pOutput.accept(JCItems.FLASK_DYE_LIGHT_GRAY.get());
                         pOutput.accept(JCItems.FLASK_DYE_GRAY.get());
@@ -197,7 +198,7 @@ public class JCTabs {
                         pOutput.accept(JCItems.FLASK_DYE_PURPLE.get());
                         pOutput.accept(JCItems.FLASK_DYE_MAGENTA.get());
                         pOutput.accept(JCItems.FLASK_DYE_PINK.get());
-                        //WIP CONTENT
+                        //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ WIP CONTENT
                         pOutput.accept(JCItems.JITEL_SWORD.get());
                         pOutput.accept(JCBlocks.OMNIHOPPER.get());
                         pOutput.accept(JCBlocks.CRUSHER_TIER1.get());

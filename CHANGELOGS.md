@@ -1,6 +1,14 @@
+## 0.3.0.0
+* Added Ceiling Redstone Torch
+* Added advancements for obtaining Stone Plate Armor and Ceiling Redstone Torch
+* Changed texture for Quartz Shard
+* Changed recipes for Stone Plate Armor and colored blocks
+* Added EMC to all colored blocks
+* Cleaned code of all texture files
+
 ### 0.2.3.b3
 * (temporary?) removed Stick Parallelepiped
-* Added Flasks with dye for each color
+* Added Flasks with Dye for each color
 * Changed textures for Pointer Block and Pointer Pillar
 * Added advancement for obtaining Pointer Block or Pointer Pillar
 * Luxmeters and Pointer blocks and pillars are now placed in the opposite facing while sneaking
@@ -15,7 +23,7 @@
   * Pointer Block (WIP)
   * Pointer Pillar (WIP)
   * Stick Parallelepiped (WIP)
-* Plate armor is now trimmable
+* Plate Armor is now trimmable
 * Chromakeys no longer create particles
 * Changed textures for:
   * Brass Components
@@ -30,7 +38,7 @@
 * Technical changes
 
 ### 0.2.3.b1
-* Added Plate armor (helmet and chestplate)
+* Added Plate Armor (helmet and chestplate)
 * Added temporary recipes for Downgraded Tier 1 Mechanism Controller and Motor
 * Added #forge:circuits/basic tag to Tier 1 Mechanism Controller
 * All chromakey blocks no longer darken adjacent blocks

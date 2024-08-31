@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "S S",
-    "SSS",
+    "pSp",
     " S "
   ],
   "key": {
     "S": {
       "item": "minecraft:smooth_stone_slab"
+    },
+    "p": {
+      "tag": "forge:plates/iron"
     }
   },
   "result": {
