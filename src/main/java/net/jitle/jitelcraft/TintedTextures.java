@@ -27,13 +27,13 @@ public class TintedTextures {
             event.getItemColors().register((stack, index) -> index == 1 ?
                     /*== Gray 5f5f5f ==*/6250335 : -1, JCItems.FLASK_DYE_GRAY.get());
             event.getItemColors().register((stack, index) -> index == 1 ?
-                    /*== Green 20d420 ==*/2151456 : -1, JCItems.FLASK_DYE_GREEN.get());
+                    /*== Green 1fcf1f ==*/2084639 : -1, JCItems.FLASK_DYE_GREEN.get()/*, JCItems.CONTROLLER_TIER5_DOWN.get(), JCItems.MOTOR_TIER5_DOWN.get()*/);
             event.getItemColors().register((stack, index) -> index == 1 ?
-                    /*== White 4da2e3 ==*/5087971 : -1, JCItems.FLASK_DYE_LIGHT_BLUE.get());
+                    /*== Light blue 4da2e3 ==*/5087971 : -1, JCItems.FLASK_DYE_LIGHT_BLUE.get());
             event.getItemColors().register((stack, index) -> index == 1 ?
                     /*== Light gray bfbfbf ==*/12566463 : -1, JCItems.FLASK_DYE_LIGHT_GRAY.get());
             event.getItemColors().register((stack, index) -> index == 1 ?
-                    /*== Lime 72ec4d ==*/7531597 : -1, JCItems.FLASK_DYE_LIME.get());
+                    /*== Lime 72ec4d ==*/7531597 : -1, JCItems.FLASK_DYE_LIME.get()/*, JCItems.CONTROLLER_TIER4_DOWN.get(), JCItems.MOTOR_TIER4_DOWN.get()*/);
             event.getItemColors().register((stack, index) -> index == 1 ?
                     /*== Magenta de19ac ==*/14555564 : -1, JCItems.FLASK_DYE_MAGENTA.get());
             event.getItemColors().register((stack, index) -> index == 1 ?
@@ -43,7 +43,7 @@ public class TintedTextures {
             event.getItemColors().register((stack, index) -> index == 1 ?
                     /*== Red f60c0c ==*/16124940 : -1, JCItems.FLASK_DYE_RED.get());
             event.getItemColors().register((stack, index) -> index == 1 ?
-                    /*== Yellow ecdc0d ==*/15522829 : -1, JCItems.FLASK_DYE_YELLOW.get());
+                    /*== Yellow ecdc0d ==*/15522829 : -1, JCItems.FLASK_DYE_YELLOW.get()/*, JCItems.CONTROLLER_TIER3_DOWN.get(), JCItems.MOTOR_TIER3_DOWN.get()*/);
         }
     }
     /*public static int downTierColor(int tier) {

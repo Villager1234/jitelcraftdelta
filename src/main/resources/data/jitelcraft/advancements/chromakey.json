@@ -16,26 +16,26 @@
   },
   "requirements": [
     [
-      "chromakey_black",
-      "chromakey_blue",
-      "chromakey_brown",
-      "chromakey_cyan",
-      "chromakey_gray",
-      "chromakey_green",
-      "chromakey_light_blue",
-      "chromakey_light_gray",
-      "chromakey_lime",
-      "chromakey_magenta",
-      "chromakey_orange",
-      "chromakey_pink",
-      "chromakey_purple",
-      "chromakey_red",
-      "chromakey_white",
-      "chromakey_yellow"
+      "key_black",
+      "key_blue",
+      "key_brown",
+      "key_cyan",
+      "key_gray",
+      "key_green",
+      "key_light_blue",
+      "key_light_gray",
+      "key_lime",
+      "key_magenta",
+      "key_orange",
+      "key_pink",
+      "key_purple",
+      "key_red",
+      "key_white",
+      "key_yellow"
     ]
   ],
   "criteria": {
-    "chromakey_black": {
+    "key_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -47,7 +47,7 @@
         ]
       }
     },
-    "chromakey_blue": {
+    "key_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "chromakey_brown": {
+    "key_brown": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -71,7 +71,7 @@
         ]
       }
     },
-    "chromakey_cyan": {
+    "key_cyan": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -83,7 +83,7 @@
         ]
       }
     },
-    "chromakey_gray": {
+    "key_gray": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -95,7 +95,7 @@
         ]
       }
     },
-    "chromakey_green": {
+    "key_green": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -107,7 +107,7 @@
         ]
       }
     },
-    "chromakey_light_blue": {
+    "key_light_blue": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -119,7 +119,7 @@
         ]
       }
     },
-    "chromakey_light_gray": {
+    "key_light_gray": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -131,7 +131,7 @@
         ]
       }
     },
-    "chromakey_lime": {
+    "key_lime": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -143,7 +143,7 @@
         ]
       }
     },
-    "chromakey_magenta": {
+    "key_magenta": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -155,7 +155,7 @@
         ]
       }
     },
-    "chromakey_orange": {
+    "key_orange": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -167,7 +167,7 @@
         ]
       }
     },
-    "chromakey_pink": {
+    "key_pink": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -179,7 +179,7 @@
         ]
       }
     },
-    "chromakey_purple": {
+    "key_purple": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -191,7 +191,7 @@
         ]
       }
     },
-    "chromakey_red": {
+    "key_red": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -203,7 +203,7 @@
         ]
       }
     },
-    "chromakey_white": {
+    "key_white": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -215,7 +215,7 @@
         ]
       }
     },
-    "chromakey_yellow": {
+    "key_yellow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PPP",
-    " d ",
-    " d "
+    "P",
+    "d",
+    "d"
   ],
   "key": {
     "d": {
-      "tag": "forge:rods/diamond"
+      "tag": "forge:gems/diamond"
     },
     "P": {
-      "tag": "minecraft:planks"
+      "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "jitelcraft:cursed_pickaxe",
+    "item": "jitelcraft:diamondq_shovel",
     "count": 1
   }
 }

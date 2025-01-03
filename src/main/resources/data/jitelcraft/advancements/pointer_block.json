@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "jitelcraft:pointer_pillar"
+      "item": "jitelcraft:pointer_block"
     },
     "title": {
       "translate": "advancements.jitelcraft.pointer_block.title"
@@ -16,12 +16,12 @@
   },
   "requirements": [
     [
-      "pointer_block",
-      "pointer_pillar"
+      "block",
+      "pillar"
     ]
   ],
   "criteria": {
-    "pointer_block": {
+    "block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -33,7 +33,7 @@
         ]
       }
     },
-    "pointer_pillar": {
+    "pillar": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

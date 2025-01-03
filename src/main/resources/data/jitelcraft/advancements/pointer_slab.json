@@ -1,32 +1,32 @@
 {
   "display": {
     "icon": {
-      "item": "jitelcraft:cursed_pickaxe"
+      "item": "jitelcraft:pointer_slab"
     },
     "title": {
-      "translate": "advancements.jitelcraft.cursed_pickaxe.title"
+      "translate": "advancements.jitelcraft.pointer_slab.title"
     },
     "description": {
-      "translate": "advancements.jitelcraft.cursed_pickaxe.descr"
+      "translate": "advancements.jitelcraft.pointer_slab.descr"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
-    "brass_ingot": {
+    "sus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "jitelcraft:cursed_pickaxe"
+              "jitelcraft:pointer_slab"
             ]
           }
         ]
       }
     }
   },
-  "parent": "jitelcraft:root"
+  "parent": "jitelcraft:pointer_block"
 }

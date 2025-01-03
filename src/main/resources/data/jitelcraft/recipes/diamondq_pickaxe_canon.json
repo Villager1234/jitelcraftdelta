@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    " d ",
+    " d "
+  ],
+  "key": {
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "P": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:diamondq_pickaxe",
+    "count": 1
+  }
+}

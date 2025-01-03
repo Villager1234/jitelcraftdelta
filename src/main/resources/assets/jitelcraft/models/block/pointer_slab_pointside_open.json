@@ -1,0 +1,23 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "jitelcraft:block/pointer_side",
+    "side": "jitelcraft:block/pointer_side",
+    "side_slab": "jitelcraft:block/pointer_slab_side_horiz",
+    "bottom": "jitelcraft:block/pointer_slab_bottom",
+    "top": "jitelcraft:block/pointer_slab_top"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 8, 16 ],
+      "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "down", "rotation": 180 },
+        "north": { "uv": [ 0, 8, 16, 16 ], "texture": "#top", "cullface": "north" },
+        "south": { "uv": [ 0, 8, 16, 16 ], "texture": "#bottom", "cullface": "south" },
+        "west":  { "uv": [ 0, 8, 16, 16 ], "texture": "#side_slab", "cullface": "west", "rotation": 180},
+        "east":  { "uv": [ 0, 8, 16, 16 ], "texture": "#side_slab", "cullface": "east"}
+      }
+    }
+  ]
+}

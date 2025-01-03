@@ -1,0 +1,256 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointdown"
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointup"
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside"
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "y": 90
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "y": 180
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "y": 270
+      },
+      "when": {
+        "type": "bottom",
+        "facing_bottom": "west"
+      }
+    },
+
+
+
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointup",
+        "x": 180
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointdown",
+        "x": 180
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "x": 180,
+        "y": 180
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "x": 180,
+        "y": 270
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "x": 180
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside",
+        "x": 180,
+        "y": 90
+      },
+      "when": {
+        "type": "top",
+        "facing_top": "west"
+      }
+    },
+
+
+
+
+
+
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointdown_open"
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointup_open"
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open"
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "y": 90
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "y": 180
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "y": 270
+      },
+      "when": {
+        "type": "double",
+        "facing_bottom": "west"
+      }
+    },
+
+
+
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointup_open",
+        "x": 180
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "down"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointdown_open",
+        "x": 180
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "up"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "x": 180,
+        "y": 180
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "x": 180,
+        "y": 270
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "x": 180
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "jitelcraft:block/pointer_slab_pointside_open",
+        "x": 180,
+        "y": 90
+      },
+      "when": {
+        "type": "double",
+        "facing_top": "west"
+      }
+    }
+  ]
+}

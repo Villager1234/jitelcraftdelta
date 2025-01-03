@@ -145,6 +145,10 @@ public class JCBlocks {
             .strength(1.4f)
             .requiresCorrectToolForDrops(),
             true));
+    public static final RegistryObject<Block> POINTER_SLAB = registerBlock("pointer_slab", () -> new Facing6PlayerSlabBlock(BlockBehaviour.Properties.of()
+            .mapColor(MapColor.RAW_IRON)
+            .strength(1.4f)
+            .requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> REDSTONE_TORCH_CEILING = BLOCKS.register("redstone_torch_ceiling", () -> new RedstoneTorchCeilingBlock(BlockBehaviour.Properties.of()
             .noCollission()
             .instabreak()

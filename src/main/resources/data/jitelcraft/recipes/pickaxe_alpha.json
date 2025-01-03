@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NDI",
+    "SrG",
+    " r "
+  ],
+  "key": {
+    "r": {
+      "tag": "forge:rods/wooden"
+    },
+    "N": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "D": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "I": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "G": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:pickaxe_alpha_5",
+    "count": 1
+  }
+}

@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "aluminum_ingot": {
+    "sus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

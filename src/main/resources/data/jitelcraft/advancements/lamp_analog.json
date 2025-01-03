@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "crusher_wooden": {
+    "sus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

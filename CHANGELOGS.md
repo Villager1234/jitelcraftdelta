@@ -1,3 +1,13 @@
+### 0.3.0.b1
+**This is the last (or one of the last) update for 1.20.1!**
+* Renamed Reinforced Wooden Pickaxe to Diamond? Pickaxe
+* Added all other Diamond? tools
+* Added α-Pickaxe and Ω-Pickaxe (ported from my other project)
+* Minor changes in some textures
+* Added Pointer Slab and an advancement for obtaining it
+* Renamed Mechanism Controllers to Controllers
+* Added unobtainable downgraded controllers and motors of tiers 3, 4 and 5 for testing purposes
+---
 ## 0.3.0.0
 * Added Ceiling Redstone Torch
 * Added advancements for obtaining Stone Plate Armor and Ceiling Redstone Torch
@@ -52,7 +62,7 @@
 
 ### 0.2.2.b1
 * Added Luxmeter
-* Added tier 2 Controller and an advancement for it
+* Added tier 2 Controller and an advancement for obtaining it
 * Added tier 2 Motor
 * Added a recipe for Stone Casing
 * Updated Forge version to 47.3.0

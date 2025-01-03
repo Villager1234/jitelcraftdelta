@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "jitel_sword": {
+    "sus": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

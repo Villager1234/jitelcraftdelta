@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jitelcraft:pickaxe_omega_0"
+    }
+  ],
+  "result": {
+    "count": 96,
+    "item": "minecraft:stick"
+  }
+}

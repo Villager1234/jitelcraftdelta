@@ -1,5 +1,6 @@
 package net.jitle.jitelcraft.block.template;
 
+import net.jitle.jitelcraft.FunctionsJ;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -27,29 +28,13 @@ public class CoilBlock extends Block {
     protected void createBlockStateDefinition(StateDefinition.@NotNull Builder<Block, BlockState> builder) {
         builder.add(AXIS, UP, DOWN);
     }
-    @NotNull
-    private static BlockPos changeBlockPos(@NotNull BlockPlaceContext context, int var) {
-        Direction pFacing = context.getClickedFace();
-        int pX = context.getClickedPos().getX();
-        int pY = context.getClickedPos().getY();
-        int pZ = context.getClickedPos().getZ();
-        switch (pFacing) {
-            case DOWN -> pY=pY-var;
-            case UP -> pY=pY+var;
-            case WEST -> pX=pX-var;
-            case EAST -> pX=pX+var;
-            case NORTH -> pZ=pZ-var;
-            case SOUTH -> pZ=pZ+var;
-        }
-        return new BlockPos(pX, pY, pZ);
-    }
     @Override//BLOCK PLACED
     public BlockState getStateForPlacement(@NotNull BlockPlaceContext pContext) {
         Boolean pUp = Boolean.FALSE;
         Boolean pDown = Boolean.FALSE;
         if (!pContext.isSecondaryUseActive()) {
             Direction pFacing = pContext.getClickedFace();
-            BlockPos neighborPos = changeBlockPos(pContext, -1);
+            BlockPos neighborPos = FunctionsJ.changeBlockPos(pContext.getClickedPos(), pFacing, -1);
             if (this == pContext.getLevel().getBlockState(neighborPos).getBlock()
                     && pContext.getClickedFace().getAxis() == pContext.getLevel().getBlockState(neighborPos).getValue(AXIS)) {
                 if (pFacing == Direction.DOWN || pFacing == Direction.WEST || pFacing == Direction.NORTH) {
@@ -58,7 +43,7 @@ public class CoilBlock extends Block {
                     pDown = Boolean.TRUE;
                 }
             }
-            neighborPos = changeBlockPos(pContext, 1);
+            neighborPos = FunctionsJ.changeBlockPos(pContext.getClickedPos(), pFacing, 1);
             if (this == pContext.getLevel().getBlockState(neighborPos).getBlock()
                     && pContext.getClickedFace().getAxis() == pContext.getLevel().getBlockState(neighborPos).getValue(AXIS)) {
                 if (pFacing == Direction.DOWN || pFacing == Direction.WEST || pFacing == Direction.NORTH) {

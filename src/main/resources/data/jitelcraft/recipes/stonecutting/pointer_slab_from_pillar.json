@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jitelcraft:pointer_pillar"
+  },
+  "count": 2,
+  "result": "jitelcraft:pointer_slab"
+}

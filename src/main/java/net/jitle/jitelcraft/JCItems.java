@@ -45,6 +45,9 @@ public class JCItems {
     public static final RegistryObject<Item> CONTROLLER_TIER2 = ITEMS.register("controller_tier2", () -> new DescrItem(new Item.Properties(),"text.jitelcraft.tier.2"));
     public static final RegistryObject<Item> CONTROLLER_TIER1_DOWN = ITEMS.register("controller_tier1_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.1"));
     public static final RegistryObject<Item> CONTROLLER_TIER2_DOWN = ITEMS.register("controller_tier2_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.2"));
+    public static final RegistryObject<Item> CONTROLLER_TIER3_DOWN = ITEMS.register("controller_tier3_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.3"));
+    public static final RegistryObject<Item> CONTROLLER_TIER4_DOWN = ITEMS.register("controller_tier4_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.4"));
+    public static final RegistryObject<Item> CONTROLLER_TIER5_DOWN = ITEMS.register("controller_tier5_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.5"));
     public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_GEAR = ITEMS.register("copper_gear", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties()));
@@ -99,6 +102,9 @@ public class JCItems {
     public static final RegistryObject<Item> MOTOR_TIER2 = ITEMS.register("motor_tier2", () -> new DescrItem(new Item.Properties(),"text.jitelcraft.tier.2"));
     public static final RegistryObject<Item> MOTOR_TIER1_DOWN = ITEMS.register("motor_tier1_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.1"));
     public static final RegistryObject<Item> MOTOR_TIER2_DOWN = ITEMS.register("motor_tier2_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.2"));
+    public static final RegistryObject<Item> MOTOR_TIER3_DOWN = ITEMS.register("motor_tier3_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.3"));
+    public static final RegistryObject<Item> MOTOR_TIER4_DOWN = ITEMS.register("motor_tier4_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.4"));
+    public static final RegistryObject<Item> MOTOR_TIER5_DOWN = ITEMS.register("motor_tier5_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.5"));
     public static final RegistryObject<Item> NETHERITE_DUST = ITEMS.register("netherite_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_GEAR = ITEMS.register("netherite_gear", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties()));
@@ -136,16 +142,51 @@ public class JCItems {
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ FULL IMPORT ITEMS
     public static final RegistryObject<Item> JITEL_SWORD = ITEMS.register("jitel_sword", JitelSwordItem::new);
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ TOOLS ITEMS
-    public static final RegistryObject<Item> CURSED_PICKAXE = ITEMS.register("cursed_pickaxe", () -> new PickaxeItem(new Tier() {
+    public static final RegistryObject<Item> DIAMONDQ_SWORD = ITEMS.register("diamondq_sword", () -> new SwordItem(JCTiers.DIAMONDQ, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMONDQ_SHOVEL = ITEMS.register("diamondq_shovel", () -> new ShovelItem(JCTiers.DIAMONDQ, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMONDQ_PICKAXE = ITEMS.register("diamondq_pickaxe", () -> new PickaxeItem(JCTiers.DIAMONDQ, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMONDQ_AXE = ITEMS.register("diamondq_axe", () -> new AxeItem(JCTiers.DIAMONDQ, 6.0F, -3.2F, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMONDQ_HOE = ITEMS.register("diamondq_hoe", () -> new HoeItem(JCTiers.DIAMONDQ, 0, -3.0F, new Item.Properties()));
+    /*public static final RegistryObject<Item> CURSED_PICKAXE = ITEMS.register("cursed_pickaxe", () -> new PickaxeItem(new Tier() {
         @Override public int getUses() {return 1408;}
         @Override public float getSpeed() {return 2;}
         @Override public float getAttackDamageBonus() {return 1;}
         @Override public int getLevel() {return 0;}
         @Override public int getEnchantmentValue() {return 2;}
         @Override public @NotNull Ingredient getRepairIngredient() {return Ingredient.of(ItemTags.create(new ResourceLocation("forge:nuggets/diamond")));}
-    }, 1, -2.8f, new Item.Properties()));
+    }, 1, -2.8f, new Item.Properties()));*/
     //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ ARMOR ITEMS
     public static final RegistryObject<Item> PLATE_HELMET = ITEMS.register("plate_helmet", () -> new PlateArmor.PlateArmorItem(ArmorItem.Type.HELMET));
     public static final RegistryObject<Item> PLATE_CHESTPLATE = ITEMS.register("plate_chestplate", () -> new PlateArmor.PlateArmorItem(ArmorItem.Type.CHESTPLATE));
     //public static final RegistryObject<Item> PLATE_CHESTPLATE = ITEMS.register("plate_chestplate", () -> new ArmorItem(null, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ OMEGA PICKAXES ITEMS
+    public static final RegistryObject<Item> PICKAXE_OMEGA_0 = ITEMS.register("pickaxe_omega_0", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_ALPHA_1 = ITEMS.register("pickaxe_alpha_1", () -> new PickaxeItem(Tiers.GOLD, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_ALPHA_2 = ITEMS.register("pickaxe_alpha_2", () -> new PickRemnantItem(JCItems.PICKAXE_ALPHA_1.get(), Tiers.STONE, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_ALPHA_3 = ITEMS.register("pickaxe_alpha_3", () -> new PickRemnantItem(JCItems.PICKAXE_ALPHA_2.get(), Tiers.IRON, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_ALPHA_4 = ITEMS.register("pickaxe_alpha_4", () -> new PickRemnantItem(JCItems.PICKAXE_ALPHA_3.get(), Tiers.DIAMOND, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_ALPHA_5 = ITEMS.register("pickaxe_alpha_5", () -> new PickRemnantItem(JCItems.PICKAXE_ALPHA_4.get(), Tiers.NETHERITE, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_OMEGA_1 = ITEMS.register("pickaxe_omega_1", () -> new PickRemnantItem(JCItems.PICKAXE_OMEGA_0.get(),
+            PickRemnantItem.Tir(Tiers.GOLD/*12*/, 5, 15f, "forge:storage_blocks/gold"),
+            5, -3.4F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_OMEGA_2 = ITEMS.register("pickaxe_omega_2", () -> new PickRemnantStripMinerItem(JCItems.PICKAXE_OMEGA_1.get(),
+            PickRemnantItem.Tir(Tiers.STONE/*4*/, 5, 6f, Ingredient.of(Items.FURNACE)),
+            5, -3.5F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_OMEGA_3 = ITEMS.register("pickaxe_omega_3", () -> new PickRemnantStripMinerItem(JCItems.PICKAXE_OMEGA_2.get(),
+            PickRemnantItem.Tir(Tiers.IRON/*6*/, 5, 8f, "forge:storage_blocks/iron"),
+            5, -3.5F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_OMEGA_4 = ITEMS.register("pickaxe_omega_4", () -> new PickRemnantStripMinerItem(JCItems.PICKAXE_OMEGA_3.get(),
+            PickRemnantItem.Tir(Tiers.DIAMOND/*8*/, 5, 10f, "forge:storage_blocks/diamond"),
+            5, -3.6F, new Item.Properties()));
+    public static final RegistryObject<Item> PICKAXE_OMEGA_5 = ITEMS.register("pickaxe_omega_5", () -> new PickRemnantStripMinerItem(JCItems.PICKAXE_OMEGA_4.get(),
+            PickRemnantItem.Tir(Tiers.NETHERITE/*9*/, 5, 12f, "forge:storage_blocks/netherite"),
+            5, -3.6F, new Item.Properties()));
 }
+/*
+SWORD 3 3 3 3 3 3   -2.4F -2.4F -2.4F -2.4F -2.4F -2.4F
+SHOVEL 1.5F 1.5F 1.5F 1.5F 1.5F 1.5F   -3.0F -3.0F -3.0F -3.0F -3.0F -3.0F
+PICKAXE 1 1 1 1 1 1   -2.8F -2.8F -2.8F -2.8F -2.8F -2.8F
+AXE 6.0F 7.0F 6.0F 6.0F 5.0F 5.0F   -3.2F -3.2F -3.0F -3.1F -3.0F -3.0F
+HOE 0 -1 0 -2 -3 -4   -3.0F -2.0F -3.0F -1.0F 0.0F 0.0F
+W S G I D N
+        */

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PP",
+    "Pd",
+    " d"
+  ],
+  "key": {
+    "d": {
+      "tag": "forge:rods/diamond"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "jitelcraft:diamondq_axe",
+    "count": 1
+  }
+}

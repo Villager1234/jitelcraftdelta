@@ -1,0 +1,15 @@
+{
+  "parent": "jitelcraft:item/item_x4",
+  "textures": {
+    "layer0": "jitelcraft:item/pickaxe_omega_3-8"
+  },
+  "overrides": [
+    {"predicate": {"damaged": 1, "damage": 0.125}, "model": "jitelcraft:item/pickaxe_omega_3-7"},
+    {"predicate": {"damaged": 1, "damage": 0.250}, "model": "jitelcraft:item/pickaxe_omega_3-6"},
+    {"predicate": {"damaged": 1, "damage": 0.375}, "model": "jitelcraft:item/pickaxe_omega_3-5"},
+    {"predicate": {"damaged": 1, "damage": 0.500}, "model": "jitelcraft:item/pickaxe_omega_3-4"},
+    {"predicate": {"damaged": 1, "damage": 0.625}, "model": "jitelcraft:item/pickaxe_omega_3-3"},
+    {"predicate": {"damaged": 1, "damage": 0.750}, "model": "jitelcraft:item/pickaxe_omega_3-2"},
+    {"predicate": {"damaged": 1, "damage": 0.875}, "model": "jitelcraft:item/pickaxe_omega_3-1"}
+  ]
+}

@@ -1,3 +1,11 @@
 {
-  "parent": "jitelcraft:block/no_texture_bricks_slab"
+  "parent": "jitelcraft:block/no_texture_bricks_slab",
+  "gui_light": "front",
+  "display": {
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0],
+      "scale":[ 1, 1, 1]
+    }
+  }
 }

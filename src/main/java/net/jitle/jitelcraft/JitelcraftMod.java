@@ -13,5 +13,6 @@ public class JitelcraftMod {
         JCBlocks.BLOCKS.register(bus);
         JCTabs.TABS.register(bus);
         JCBlockEntities.BLOCK_ENTITIES.register(bus);
+        //MinecraftForge.EVENT_BUS.register(this);
     }
 }

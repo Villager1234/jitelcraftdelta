@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "item": "jitelcraft:diamondq_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.jitelcraft.diamondq_tool.title"
+    },
+    "description": {
+      "translate": "advancements.jitelcraft.diamondq_tool.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "pickaxe",
+      "axe",
+      "hoe",
+      "sword",
+      "shovel"
+    ]
+  ],
+  "criteria": {
+    "pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:diamondq_pickaxe"
+            ]
+          }
+        ]
+      }
+    },
+    "axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:diamondq_axe"
+            ]
+          }
+        ]
+      }
+    },
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:diamondq_hoe"
+            ]
+          }
+        ]
+      }
+    },
+    "sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:diamondq_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "shovel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jitelcraft:diamondq_shovel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jitelcraft:root"
+}

@@ -16,12 +16,12 @@
   },
   "requirements": [
     [
-      "plate_chestplate",
-      "plate_helmet"
+      "chestplate",
+      "helmet"
     ]
   ],
   "criteria": {
-    "plate_chestplate": {
+    "chestplate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -33,7 +33,7 @@
         ]
       }
     },
-    "plate_helmet": {
+    "helmet": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
