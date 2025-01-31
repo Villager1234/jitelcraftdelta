@@ -1,5 +1,5 @@
 {
-  "parent": "jitelcraft:block/no_texture_stairs",
+  "parent": "minecraft:block/stairs",
   "gui_light": "front",
   "display": {
     "gui": {

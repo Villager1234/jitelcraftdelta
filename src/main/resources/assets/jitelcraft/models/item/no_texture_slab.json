@@ -1,5 +1,5 @@
 {
-  "parent": "jitelcraft:block/no_texture_slab",
+  "parent": "minecraft:block/slab",
   "gui_light": "front",
   "display": {
     "gui": {

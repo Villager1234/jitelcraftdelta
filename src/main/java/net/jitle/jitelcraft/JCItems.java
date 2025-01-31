@@ -4,14 +4,11 @@ import net.jitle.jitelcraft.armor.*;
 import net.jitle.jitelcraft.item.*;
 import net.jitle.jitelcraft.item.template.*;
 import net.minecraft.core.Direction;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import org.jetbrains.annotations.NotNull;
 
 public class JCItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, JitelcraftMod.MODID);
@@ -45,9 +42,6 @@ public class JCItems {
     public static final RegistryObject<Item> CONTROLLER_TIER2 = ITEMS.register("controller_tier2", () -> new DescrItem(new Item.Properties(),"text.jitelcraft.tier.2"));
     public static final RegistryObject<Item> CONTROLLER_TIER1_DOWN = ITEMS.register("controller_tier1_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.1"));
     public static final RegistryObject<Item> CONTROLLER_TIER2_DOWN = ITEMS.register("controller_tier2_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.2"));
-    public static final RegistryObject<Item> CONTROLLER_TIER3_DOWN = ITEMS.register("controller_tier3_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.3"));
-    public static final RegistryObject<Item> CONTROLLER_TIER4_DOWN = ITEMS.register("controller_tier4_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.4"));
-    public static final RegistryObject<Item> CONTROLLER_TIER5_DOWN = ITEMS.register("controller_tier5_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.controller_down","text.jitelcraft.tier.5"));
     public static final RegistryObject<Item> COPPER_DUST = ITEMS.register("copper_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_GEAR = ITEMS.register("copper_gear", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> COPPER_NUGGET = ITEMS.register("copper_nugget", () -> new Item(new Item.Properties()));
@@ -102,9 +96,6 @@ public class JCItems {
     public static final RegistryObject<Item> MOTOR_TIER2 = ITEMS.register("motor_tier2", () -> new DescrItem(new Item.Properties(),"text.jitelcraft.tier.2"));
     public static final RegistryObject<Item> MOTOR_TIER1_DOWN = ITEMS.register("motor_tier1_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.1"));
     public static final RegistryObject<Item> MOTOR_TIER2_DOWN = ITEMS.register("motor_tier2_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.2"));
-    public static final RegistryObject<Item> MOTOR_TIER3_DOWN = ITEMS.register("motor_tier3_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.3"));
-    public static final RegistryObject<Item> MOTOR_TIER4_DOWN = ITEMS.register("motor_tier4_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.4"));
-    public static final RegistryObject<Item> MOTOR_TIER5_DOWN = ITEMS.register("motor_tier5_down", () -> new NameDescrItem(new Item.Properties(),"item.jitelcraft.motor_down","text.jitelcraft.tier.5"));
     public static final RegistryObject<Item> NETHERITE_DUST = ITEMS.register("netherite_dust", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_GEAR = ITEMS.register("netherite_gear", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHERITE_NUGGET = ITEMS.register("netherite_nugget", () -> new Item(new Item.Properties()));
@@ -189,4 +180,4 @@ PICKAXE 1 1 1 1 1 1   -2.8F -2.8F -2.8F -2.8F -2.8F -2.8F
 AXE 6.0F 7.0F 6.0F 6.0F 5.0F 5.0F   -3.2F -3.2F -3.0F -3.1F -3.0F -3.0F
 HOE 0 -1 0 -2 -3 -4   -3.0F -2.0F -3.0F -1.0F 0.0F 0.0F
 W S G I D N
-        */
+*/

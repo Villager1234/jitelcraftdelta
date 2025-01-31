@@ -46,10 +46,11 @@ public class PickRemnantStripMinerItem extends PickaxeItem {
                     } else {
                         //nextBS.getBlock().playerDestroy(pLevel, pleer, nextBP, nextBS, null, pStack);
                         Block.dropResources(nextBS, pLevel, nextBP, null, pleer, pStack);
+                        /*if (counter % 2 == 0) {
+                            damageDowngradePick(pStack, pLevel, nextBS, nextBP, pEntity);
+                        }*/
+                        damageDowngradePick(pStack, pLevel, nextBS, nextBP, pEntity);
                         tru = damageDowngradePick(pStack, pLevel, nextBS, nextBP, pEntity);
-                        if (counter % 2 == 0) {
-                            tru = damageDowngradePick(pStack, pLevel, nextBS, nextBP, pEntity);
-                        }
                         counter += 1;
                     }
                 } else {

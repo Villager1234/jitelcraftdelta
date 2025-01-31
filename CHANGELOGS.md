@@ -1,5 +1,12 @@
-### 0.3.0.b1
+## 0.3.1.0
 **This is the last (or one of the last) update for 1.20.1!**
+* Temporarily removed advancements for obtaining WIP items (except tier 1 Crusher)
+* Added advancements for obtaining α-Pickaxe and Ω-Pickaxe and destroying Ω-Pickaxe
+* Removed unused textures and models
+* Some minor code changes
+* Removed downgraded controllers and motors of tiers 3, 4 and 5
+
+### 0.3.0.b1
 * Renamed Reinforced Wooden Pickaxe to Diamond? Pickaxe
 * Added all other Diamond? tools
 * Added α-Pickaxe and Ω-Pickaxe (ported from my other project)

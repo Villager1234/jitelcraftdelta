@@ -1,18 +1,18 @@
 {
   "display": {
     "icon": {
-      "item": "jitelcraft:jitel_sword"
+      "item": "jitelcraft:pickaxe_omega_0"
     },
     "title": {
-      "translate": "advancements.jitelcraft.jitel_sword.title"
+      "translate": "advancements.jitelcraft.pickaxe_omega_stick.title"
     },
     "description": {
-      "translate": "advancements.jitelcraft.jitel_sword.descr"
+      "translate": "advancements.jitelcraft.pickaxe_omega_stick.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "sus": {
@@ -21,12 +21,12 @@
         "items": [
           {
             "items": [
-              "jitelcraft:jitel_sword"
+              "jitelcraft:pickaxe_omega_0"
             ]
           }
         ]
       }
     }
   },
-  "parent": "jitelcraft:jitel_gem"
+  "parent": "jitelcraft:pickaxe_omega"
 }

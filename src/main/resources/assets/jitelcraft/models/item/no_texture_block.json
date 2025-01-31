@@ -1,5 +1,5 @@
 {
-  "parent": "jitelcraft:block/no_texture_block",
+  "parent": "minecraft:block/cube",
   "gui_light": "front",
   "display": {
     "gui": {

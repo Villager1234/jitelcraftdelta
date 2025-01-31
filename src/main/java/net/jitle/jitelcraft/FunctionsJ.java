@@ -17,8 +17,8 @@ public class FunctionsJ {
             case SOUTH -> pZ=pZ+var;
         }
         return new BlockPos(pX, pY, pZ);
-    }/*
-    public static BlockPos changeBlockPos(BlockPlaceContext context, int var) {
+    }
+    /*public static BlockPos changeBlockPos(BlockPlaceContext context, int var) {
         return changeBlockPos(context.getClickedPos(), context.getClickedFace(), var);
     }*/
 }
